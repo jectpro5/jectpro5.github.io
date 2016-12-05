@@ -1,0 +1,96 @@
+.header {
+    background: #333946;
+}
+
+.header_center {
+    width: 1024px;
+    margin: auto;
+}
+
+.header_center_table {
+    width: 100%;
+    display: table;
+    height: 160px;
+
+}
+
+.col-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.col-cell-1 {
+    width: 310px;
+}
+
+.col-cell-2 {
+    width: 415px;
+    padding-top: 38px;
+    padding-right: 35px;
+}
+
+.main_logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../img/main_logo.png') no-repeat left center;
+}
+
+.header_t1 {
+    font: 16px Tahoma, sans-serif;
+    color: #fff;
+    border-bottom: 1px solid #686e7b;
+    padding-bottom: 3px;
+    margin-bottom: 13px;
+}
+
+.header_t2 {
+    color: #fff;
+    font-size: 21px;
+}
+
+.header_t2:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header_t2 > div {
+    background: url('../img/red_tel.png') no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #686e7b;
+}
+
+.header_t2 > div > span {
+    color: #aeaeaf;
+}
+
+.header_t2 > div:nth-child(1) {
+    float: left;
+}
+
+.header_t2 > div:nth-child(2) {
+    float: right;
+}
+
+.header_t3 {
+    font: 16px Tahoma, sans-serif;
+    color: #fff;
+    background: url('../img/header_icon2.png') no-repeat left center;
+    padding: 5px 0 5px 30px;
+}
+
+.col-cell-3 {
+    width: 300px;
+    background: #333946;
+    padding-top: 23px;
+}
+
+.col-cell-3 > input {
+    width: 300px;
+    height: 30px;
+    background: #333946;
+    border: 1px solid #686e7b;
+    background: url('../img/head_icon_3.png') no-repeat right center;
+}

@@ -1,0 +1,43 @@
+#box_1 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid green;
+}
+#bcol {
+    background-color: #985f0d;
+}
+#box_2 {
+    display: none;
+}
+.hightlight {
+    background-color: #000;
+    color: #ffffff;
+}
+
+
+#box_4 {
+    width: 200px;
+    height: 200px;
+    background-color: #cecece;
+    margin-top: 20px;
+    position: relative;
+}
+#box_4 p {
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+}
+
+
+.selectrs {
+    border:1px solid burlywood;
+}
+
+#red {
+    color: red;
+}
+
+.color {
+    color: #2b542c;
+}

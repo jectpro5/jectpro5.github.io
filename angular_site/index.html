@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="angular.min.js"></script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="todo.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="angular.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indipixel_22</title>
+</head>
+<body ng-controller="MainController">
+<button id="top" ng-click="scrollTo('bottom')">Go to bottom of the page</button>
+<br/><br/>
+<div class="container">
+
+    <p>Enter your name</p>
+    <input type="text" ng-change="message(data)" ng-model="data">
+    <h1>{{text}}</h1>
+
+    <p>Data on employee</p>
+    <div>First Name : {{ employee.firstName}}</div>
+    <div>Last Name : {{ employee.lastName}}</div>
+    <div>Gender : {{ employee.gender}}</div>
+
+
+    <div>I like {{hobby.name}}</div>
+    <div>I like {{hobby.way}}</div>
+    <div><img src="{{hobby.foto_1}}" alt="{{hobby.name + foto_1}}"></div>
+
+
+    <table>
+        <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Gender</th>
+            <th>Salary</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees">
+            <td>{{ employee.firstName}}</td>
+            <td>{{ employee.lastName}}</td>
+            <td>{{ employee.gender}}</td>
+            <td>{{ employee.salary}}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li ng-repeat="country in countries">
+            {{ country.name }}
+            <ul id="countr">
+                <li ng-repeat="city in country.cities">
+                    {{ city.name }}
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <table id="sec_tab">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Likes</th>
+            <th>Dislikes</th>
+            <th>Like/Dislike</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="technology in technologies">
+            <td>{{technology.name}}</td>
+            <td>{{technology.likes}}</td>
+            <td>{{technology.dislikes}}</td>
+            <td>
+                <input type="button" value="Like" ng-click="incrementLikes(technology)">
+                <input type="button" value="Dislike" ng-click="incrementDislikes(technology)">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <p id="for_inp">Rows to display <input type="number" step="1" min="0" max="5" ng-model="rowLimit"></p>
+    <table id="third_tab">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Date of Birt</th>
+            <th>Gender</th>
+            <th>Salary (number)</th>
+            <th>Salary (currency)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees_2 | limitTo:rowLimit">
+            <td>{{ employee.name | uppercase}}</td>
+            <td>{{ employee.dateOfBirth | date: "dd/MM/yyyy"}}</td>
+            <td>{{ employee.gender | lowercase}}</td>
+            <td>{{ employee.salary | number:2 }}</td>
+            <td>{{ employee.salary | currency:"UA ":1 }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    Order By : <select ng-model="sortColumn">
+    <option value="name">Name ASC</option>
+    <option value="gender">Gender ASC</option>
+    <option value="dateOfBirth">Date of Birth ASC</option>
+    <option value="-salary">Salary DESC</option>
+</select>
+    <table id="fourth_tab">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Date of Birt</th>
+            <th>Gender</th>
+            <th>Salary (number)</th>
+            <th>Salary (currency)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees_3 | orderBy:sortColumn">
+            <td>{{ employee.name | uppercase}}</td>
+            <td>{{ employee.dateOfBirth | date: "dd/MM/yyyy"}}</td>
+            <td>{{ employee.gender | lowercase}}</td>
+            <td>{{ employee.salary | number:2 }}</td>
+            <td>{{ employee.salary | currency:"UA ":1 }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <table id="fifth_tab">
+        <thead>
+        <tr>
+            <th ng-click="sortData('name')">Name
+                <div ng-class="getSortClass('name')"></div>
+            </th>
+            <th ng-click="sortData('dateOfBirth')">Date of Birt
+                <div ng-class="getSortClass('dateOfBirth')"></div>
+            </th>
+            <th ng-click="sortData('gender')">Gender
+                <div ng-class="getSortClass('gender')"></div>
+            </th>
+            <th ng-click="sortData('salary')">Salary
+                <div ng-class="getSortClass('salary')"></div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees_3 | orderBy:sortColumn:reverseSort">
+            <td>{{ employee.name | uppercase}}</td>
+            <td>{{ employee.dateOfBirth | date: "dd/MM/yyyy"}}</td>
+            <td>{{ employee.gender }}</td>
+            <td>{{ employee.salary }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <br/><br/>
+
+
+    Search : <input type="text" placeholder="Search employees" ng-model="searchText.city">
+    <br/><br/>
+    <table id="sixth_tab">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Salary</th>
+            <th>City</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees_5 | filter:searchText">
+            <td>{{ employee.name}}</td>
+            <td>{{ employee.gender }}</td>
+            <td>{{ employee.salary }}</td>
+            <td>{{ employee.city }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <br/><br/>
+
+
+    <input type="text" placeholder="Search name" ng-model="searchText_1.name">
+    <input type="text" placeholder="Search city" ng-model="searchText_1.city_1">
+    <input type="checkbox" ng-model="exactMatch"> Exact Match
+    <br/><br/>
+    <table id="seventh_tab" class="for_tabl">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Salary</th>
+            <th>City</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees_6 | filter:searchText_1:exactMatch">
+            <td>{{ employee.name}}</td>
+            <td>{{ employee.gender }}</td>
+            <td>{{ employee.salary }}</td>
+            <td>{{ employee.city_1 }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <br/><br/>
+
+
+    <input type="checkbox" ng-model="hideSalary"> Hide Salary
+    <br/><br/>
+    <table class="for_tabl">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th ng-hide="hideSalary">Salary</th>
+            <th>City</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees_6">
+            <td>{{ employee.name}}</td>
+            <td>{{ employee.gender }}</td>
+            <td ng-hide="hideSalary">{{ employee.salary }}</td>
+            <td>{{ employee.city_1 }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <br/><br/>
+
+
+    <input type="checkbox" ng-model="hideSalary_1"> Hide Salary
+    <br/><br/>
+    <table class="for_tabl">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th ng-hide="hideSalary_1">Salary</th>
+            <th ng-show="hideSalary_1">Salary</th>
+            <th>City</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="employee in employees_6">
+            <td>{{ employee.name}}</td>
+            <td>{{ employee.gender }}</td>
+            <td ng-hide="hideSalary_1">{{ employee.salary }}</td>
+            <td ng-show="hideSalary_1"> ####</td>
+            <td>{{ employee.city_1 }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <br/><br/>
+
+
+    <div class="for_todo">
+        <h2>Total todos: {{getTotalTodos()}}</h2>
+        <ul>
+            <li ng-repeat="todo in todos">
+                <input type="checkbox" ng-model="todo.done">
+                <span class="done-{{todo.done}}">{{todo.text}}</span>
+            </li>
+        </ul>
+        <form class="form-horizontal">
+            <input type="text" ng-model="formTodoText" ng-model-instant>
+            <button class="btn" ng-click="addTodo()"><i class="glyphicon-plus"></i>Add</button>
+        </form>
+        <!--<button class="btn-large" ng-click="clearCompleted()"><i class="glyphicon-trash"></i>Clear Completed</button>-->
+    </div>
+    <br/><br/>
+
+
+    <p id="pure_JS_title">This piece is made in pure JavaScript</p>
+    <h2 id="pure_JS_h2">Clikc a list item to replase this text</h2>
+    <button class="btn-group-lg" id="for_pure">Add new item</button>
+    <ul id="our_list">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+    </ul>
+
+    <!--<h2 id="pure_h2_2">Click a list item to replase this text</h2>
+     <button class="btn-group-lg" id="for_pure_2">Add new item</button>
+     <ul id="our_list_2">
+         <li>First item</li>
+         <li>Second item</li>
+         <li>Third item</li>
+         <li>Fourth item</li>
+         <li>Fifth item</li>
+     </ul>
+
+     <h2 id="pure_h2_3">Click a list item to replase this text</h2>
+     <button class="btn-group-lg" id="for_pure_3">Add new item</button>
+     <ul id="our_list_3">
+         <li>First item</li>
+         <li>Second item</li>
+         <li>Third item</li>
+         <li>Fourth item</li>
+         <li>Fifth item</li>
+     </ul>
+
+
+
+     <h2>JSON and AJAX</h2>
+     <button class="bg-success" id="btn_json">Fetch Info for 3 New Animals</button>
+     <div id="animal_info"></div>-->
+
+    <button id="bottom" ng-click="scrollTo('top')">Go to top of the page</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script type="text/javascript" src="JavaScript.js"></script>
+</body>
+</html>

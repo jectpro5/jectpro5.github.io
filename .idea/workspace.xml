@@ -27,28 +27,28 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js_1/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+            <state relative-caret-position="85">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="30" />
+            <state relative-caret-position="17">
+              <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forecast.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forecast.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forecast.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="226" column="15" selection-start-line="226" selection-start-column="15" selection-end-line="226" selection-end-column="15" />
+            <state relative-caret-position="1853">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,13 +111,30 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recent project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recent project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Адаптивный, сделаный недавно 3333" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/another_adaptive_site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javascript_jquery" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -226,17 +243,20 @@
       <workItem from="1480512530151" duration="699000" />
       <workItem from="1480931627736" duration="8459000" />
       <workItem from="1480953606341" duration="513000" />
+      <workItem from="1481004940262" duration="4636000" />
+      <workItem from="1481028113773" duration="721000" />
+      <workItem from="1481030733291" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179869000" />
+    <option name="totallyTimeSpent" value="185268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1368" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1368" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21005917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21253823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -307,8 +327,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resent.html" />
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.css" />
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.html" />
+    <entry file="file://G:/DAY_LITE/copy.css" />
+    <entry file="file://G:/DAY_LITE/copy.html" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.css" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.html" />
     <entry file="file://$PROJECT_DIR$/js_1/scripts.js">
@@ -328,8 +348,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resent.html" />
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.css" />
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.html" />
+    <entry file="file://G:/DAY_LITE/copy.css" />
+    <entry file="file://G:/DAY_LITE/copy.html" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.css" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.html" />
     <entry file="file://$PROJECT_DIR$/js_1/scripts.js">
@@ -349,8 +369,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resent.html" />
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.css" />
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.html" />
+    <entry file="file://G:/DAY_LITE/copy.css" />
+    <entry file="file://G:/DAY_LITE/copy.html" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.css" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.html" />
     <entry file="file://$PROJECT_DIR$/js_1/scripts.js">
@@ -396,7 +416,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.html" />
+    <entry file="file://G:/DAY_LITE/copy.html" />
     <entry file="file://$PROJECT_DIR$/frcst_img/Bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -412,7 +432,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DAY_LITE/copy.css" />
+    <entry file="file://G:/DAY_LITE/copy.css" />
     <entry file="file://$PROJECT_DIR$/frcst_img/right_box.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -430,7 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test1/kartinka.html" />
+    <entry file="file://G:/test1/kartinka.html" />
     <entry file="file://$PROJECT_DIR$/frcst_img/wooman_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -472,24 +492,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js_1/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forecast.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="226" column="15" selection-start-line="226" selection-start-column="15" selection-end-line="226" selection-end-column="15" />
+        <state relative-caret-position="1853">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="91" />
           <folding />
         </state>
       </provider>

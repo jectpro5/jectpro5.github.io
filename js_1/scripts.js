@@ -1,9 +1,11 @@
 $("document").ready(function () {
 
     var arrow_down = $('.arrow-down p');
-    arrow_down.hide(200).show(400).hide(500).show(600).hide(500).show(600);
+    arrow_down.fadeOut(500).fadeIn(600).fadeOut(500).fadeIn(600).fadeOut(700).fadeIn(800);
 
     $('.dropdown-menu li:even').css("background", "#87A9F5");
+
+    //$('.dropdown-menu li[title*=website]').css("font-size", "20px");
 
     $(".header p").hover(hightLightPara);
     function hightLightPara() {

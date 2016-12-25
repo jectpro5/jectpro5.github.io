@@ -1,6 +1,11 @@
 body {
     padding: 20px;
 }
+#for_java_script {
+    margin-left: 100px;
+    color: red;
+    font-size: 25px;
+}
 #box_1 {
     width: 150px;
     height: 150px;

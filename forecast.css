@@ -987,6 +987,25 @@ body {
 
 
 @media (max-width: 1200px) {
+    .lft_1 img {
+        width: 100%;
+        left: -27%;
+        top: 170px;
+    }
+    .lft_2 h2 {
+        padding: 25% 0 10% 0;
+    }
+    .wrap_cont_3 {
+        background: none !important;
+    }
+    .rght_2 img {
+        display: block !important;
+        width: 100%;
+        position: absolute;
+        left: 30px;
+        top: 240px;
+    }
+
     #datepckr {
         padding-top: 43%;
         margin-left: 7%;
@@ -1028,9 +1047,18 @@ body {
 
 
 @media (max-width: 1100px) {
+    .lft_1 img {
+        left: -16%;
+        top: 178px;
+    }
     .lft_2 p {
         color: black;
     }
+    .rght_2 img {
+        left: 2px;
+        top: 240px;
+    }
+
     #datepckr {
        display: none;
     }
@@ -1080,6 +1108,15 @@ body {
     .header h1 {
         font: 500 45px 'Lato', sans-serif;
         margin-bottom: 20px !important;
+    }
+    .lft_1 img {
+        width: 100%;
+        left: -37%;
+        top: 186px;
+    }
+    .rght_2 img {
+        left: 50px;
+        top: 166px;
     }
 
     .c_4 p {
@@ -1182,10 +1219,9 @@ body {
 
 
 @media (max-width: 860px) {
-    .wrap_cont_3 {
-        background-image: url("frcst_img/map.png");
-        background-repeat: no-repeat;
-        background-position: 100% 113%;
+    .rght_2 img {
+        left: 0;
+        top: 166px;
     }
 
 }
@@ -1563,6 +1599,9 @@ body {
         padding: 10px 18px;
         display: block;
         margin: 13px auto 10px auto;
+    }
+    .wrap_cont_4 h2 {
+        margin-top: 30px;
     }
 
     #im img {

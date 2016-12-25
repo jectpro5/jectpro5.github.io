@@ -1,4 +1,4 @@
-function viewDate(n) {
+function viewDate(n, element) {
     var now = new Date();
     var  nowMilli = now.getTime();
 
@@ -17,7 +17,7 @@ function viewDate(n) {
 }
 var userDays = prompt ("Введіть число днів віід 1 до 1000");
 if (userDays > 1000 || userDays < 1 || isNaN(userDays)) {document.write("Ви ввели неправильне значення!");}
-else { var itog = Math.round(userDays); document.write("<br>" + "Через " + itog + " днів буде ось така дата: "); viewDate(itog)}
+else { var itog = Math.round(userDays); document.write("<br>" + "Через " + itog + " днів буде ось така дата: "); viewDate(itog, 'for_java_script')}
 
 var now = new Date();
 var hour = now.getHours();

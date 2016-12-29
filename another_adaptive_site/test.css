@@ -22,23 +22,23 @@ h4 {
     letter-spacing: 2px;
     margin: -14px 0 37px 0;
 }
-#main-nav ul li {
+nav ul li {
     display: inline-block;
     }
 
-#main-nav ul a {
+nav ul a {
     color: #000;
     border: none;
     font: 15px 'Open Sans', sans-serif;
 }
 
-#main-nav ul a button {
+nav ul a button {
     padding: 3px 15px;
 }
 #for_dropdown > div > a {
     line-height: 7px;
 }
-#main-nav {
+nav {
     text-align: center;
 }
 #for_ul {
@@ -96,7 +96,7 @@ h5 {
     margin-bottom: 15px;
 }
 
-#footer_center p:first-of-type {
+address p:first-of-type {
     font: 14px 'Open Sans', sans-serif;
     display: block;
     text-align: center;
@@ -104,7 +104,7 @@ h5 {
     color: #939393;
     margin-bottom: 2px;
 }
-#footer_center p:last-of-type {
+address p:last-of-type {
     font: 19px 'Open Sans', sans-serif;
     display: block;
     text-align: center;
@@ -112,16 +112,17 @@ h5 {
     color: #939393;
     margin-bottom: 5px;
 }
-#footer_center a {
+address a {
     display: block;
     text-align: center;
     padding: 3px 15px ;
     color: #939393 ;
 }
-#footer_center a button {
+address a button {
     padding: 3px 23px;
     margin-bottom: 12px;
 }
+
 
 #footer_right > li {
     width: 33px;
@@ -137,12 +138,13 @@ h5 {
 }
 #footer_right a {
     color:  #969696;
+    text-align: right;
 }
 #footer_right + a {
     color: #939393;
 }
 #footer_right {
-    margin-bottom: 12%;
+    margin-bottom:12%;
 }
 
 
@@ -178,8 +180,11 @@ h5 {
     }
 }
 @media (max-width: 425px) {
-    #main-nav ul li {
+    nav ul li {
         display: block;
         margin: 20px auto;
+    }
+    #footer_right {
+        float: none !important;
     }
 }

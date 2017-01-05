@@ -14,6 +14,7 @@ h1 {
     text-align: center;
     color: #9b9b9b;
 }
+
 h4 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -22,9 +23,10 @@ h4 {
     letter-spacing: 2px;
     margin: -14px 0 37px 0;
 }
+
 nav ul li {
     display: inline-block;
-    }
+}
 
 nav ul a {
     color: #000;
@@ -35,30 +37,110 @@ nav ul a {
 nav ul a button {
     padding: 3px 15px;
 }
+
 #for_dropdown > div > a {
     line-height: 7px;
 }
+
 nav {
     text-align: center;
 }
+
 #for_ul {
     margin-bottom: -35px;
 }
+
 #for_dropdown {
     margin: 0 58px;
     text-decoration: none;
 }
+
 #for_dropdown a {
     margin-top: 14px;
     text-decoration: none;
     cursor: pointer;
 }
+
 .for_img {
     margin-top: 5%;
 }
-.for_img img:hover {
+
+.for_img img {
+    position: relative;
+}
+
+.img_in {
+    width: 228px;
+    height: 228px;
+    position: absolute;
+    background-color: black;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+/*.for_img p {
+    width: 228px;
+    height: 228px;
+    position: absolute;
+    z-index: 2;
+    color: inherit;
+
 
 }
+
+.for_img p:hover {
+    color: red;
+}
+
+.neww::before {
+    content: '';
+    background-color: #2aabd2;
+    width: 228px;
+    height: 228px;
+    position: absolute;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+.for_img span::before {
+    content: '';
+    background-color: #2aabd2;
+    width: 228px;
+    height: 228px;
+    position: absolute;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+.for_img span::before:hover {
+    box-shadow:0 0 0 114px rgba(0, 0, 0, 0.63) inset;
+}
+.for_img span::before {
+    content: "look here";
+    color: red;
+    z-index: 2;
+    top: 50px;
+    left: 45px;
+}*/
+.img_in:hover {
+        background: rgba(0, 0, 0, 0.35);
+}
+
+/*.neww {
+    border: 3px solid red;
+    box-shadow:0 0 0 114px rgba(0, 0, 0, 0.63) inset;
+}
+#ts {box-shadow:0 0 0 114px rgba(0, 0, 0, 0.63) inset;}
+
+.neww::before {
+
+}
+#text_for_hover {
+    color: #000;
+    font: 14px 'Parisienne', cursive;
+    position: absolute;
+    z-index: 2;
+}*/
 
 #hr_ln {
     width: 100%;
@@ -68,8 +150,7 @@ nav {
 }
 
 #footer_left {
-    display: block;
-    margin: 0 auto;
+    float: left;
 }
 
 h2 {
@@ -87,6 +168,7 @@ h5 {
     letter-spacing: 1px;
     margin: -5px 0 7px 0;
 }
+
 #footer_left a {
     font: 13px 'Open Sans', sans-serif;
     display: block;
@@ -104,6 +186,7 @@ address p:first-of-type {
     color: #939393;
     margin-bottom: 2px;
 }
+
 address p:last-of-type {
     font: 19px 'Open Sans', sans-serif;
     display: block;
@@ -112,17 +195,18 @@ address p:last-of-type {
     color: #939393;
     margin-bottom: 5px;
 }
+
 address a {
     display: block;
     text-align: center;
-    padding: 3px 15px ;
-    color: #939393 ;
+    padding: 3px 15px;
+    color: #939393;
 }
+
 address a button {
     padding: 3px 23px;
     margin-bottom: 12px;
 }
-
 
 #footer_right > li {
     width: 33px;
@@ -132,58 +216,85 @@ address a button {
     border-radius: 50%;
     text-align: center;
     padding-top: 3px;
-    color: #969696 ;
+    color: #969696;
     font-size: 17px;
     margin: -2px 4px;
 }
+
 #footer_right a {
-    color:  #969696;
-    text-align: right;
-}
-#footer_right + a {
-    color: #939393;
-}
-#footer_right {
-    margin-bottom:12%;
+    color: #969696;
+
 }
 
+#footer_right + a {
+    color: #939393;
+    float: right;
+}
+
+#footer_right {
+    text-align: right;
+    margin-bottom: 9%;
+}
 
 @media (max-width: 1000px) {
     .for_img {
         margin-top: 1%;
     }
 }
+
 @media (max-width: 992px) {
     .for_img {
         margin-top: 3%;
     }
+
     .for_img img {
         margin-top: 5%;
     }
+    .img_in {
+        margin-top: 4.8%;
+    }
 }
+
 @media (max-width: 767px) {
     .for_img img {
         display: block;
         margin: 0 auto;
         margin-top: 5%;
     }
-#footer_right {
-    text-align: center;
-}
+    .img_in {
+        display: none;
+    }
+
+    #footer_left {
+        float: none;
+    }
+
+    footer article, footer address, footer section {
+        margin-top: 30px;
+    }
+
+    #footer_right {
+        text-align: center;
+    }
+
     #footer_right + a {
+        float: none;
         display: block;
-       text-align: center;
+        text-align: center;
         margin-bottom: 20px;
     }
+
     #footer_right {
         margin-bottom: 15px;
     }
 }
+
 @media (max-width: 425px) {
     nav ul li {
         display: block;
         margin: 20px auto;
     }
+
     #footer_right {
         float: none !important;
     }

@@ -16,3 +16,38 @@ function userDetails () {
     document.write ("Насиченість кольору: " + screen.colorDepth + "<br>");
 }
 userDetails ();
+
+
+var vacTour = { Turkey : 900, Spain : 1400, Egept : 600};
+vacTour.calc = function (peoples, days, country) {
+     res = peoples * days * this[country];
+    return res;
+};
+document.write("Стоимость поездки будет такая: " + vacTour.calc(2, 8, "Spain") + "гривен.");
+
+//setTimeout("alert('test');", 3000);
+var newItemCount =1;
+var ourList = document.getElementById("our_list")
+var ourButton = document.getElementById("for_pure_btn");
+var ourHeadLine = document.getElementById("pure_JS_h2");
+var listItems = document.getElementById("our_list").getElementsByTagName("li");
+ourList.addEventListener("click", activateItem);
+function activateItem(e) {
+    if (e.target.nodeName == "LI") {
+        ourHeadLine.innerHTML = e.target.innerHTML;
+        for (i=0; i < e.target.parentNode.children.length; i++) {
+            e.target.parentNode.children[i].classList.remove("pure_active");
+        }
+        e.target.classList.add("pure_active");
+    }
+}
+ourButton.addEventListener("click", createNewItem);
+function createNewItem() {
+    ourList.innerHTML += "<li>Something new" + newItemCount + "</li>";
+    newItemCount++;
+}
+
+function persn(name, fawColor) {console.log("Hello, my name is " + name + "and my favorite color is " + fawColor + ".");
+}
+persn("Ruslan", "green");
+persn("Sergey", "orange");

@@ -2,13 +2,11 @@
 
 @font-face {
     font-family: Lato; /* Имя шрифта */
-    src: url(./fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
     font-weight: 500;
 }
 
 @font-face {
     font-family: Lato; /* Имя шрифта */
-    src: url(./fonts/Lato-Light.ttf); /* Путь к файлу со шрифтом */
     font-weight: 400;
 }
 
@@ -28,7 +26,10 @@ body {
 }
 
 
-
+#for_name {
+    color: #398439;
+    text-align: center;
+}
 .for_tabl table{
     border-collapse: collapse;
 }

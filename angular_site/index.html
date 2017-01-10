@@ -5,22 +5,22 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="angular.min.js"></script>
-    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+   <!-- <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script> -->
     <script src="jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="todo.js"></script>
 
     <link rel="stylesheet" type="text/css" href="angular.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>indipixel_22</title>
+    <title>AngularJS</title>
 </head>
 <body ng-controller="MainController">
-<button id="top" ng-click="scrollTo('bottom')">Go to bottom of the page</button>
-<br/><br/>
-<div class="container">
 
+<div class="container">
+    <button id="top" ng-click="scrollTo('bottom')">Go to bottom of the page</button>
+    <br/><br/>
     <p>Enter your name</p>
     <input type="text" ng-change="message(data)" ng-model="data">
-    <h1>{{text}}</h1>
+    <h1 id="for_name">{{text}}</h1>
 
     <p>Data on employee</p>
     <div>First Name : {{ employee.firstName}}</div>
@@ -30,7 +30,7 @@
 
     <div>I like {{hobby.name}}</div>
     <div>I like {{hobby.way}}</div>
-    <div><img src="{{hobby.foto_1}}" alt="{{hobby.name + foto_1}}"></div>
+   <!-- <div><img src="{{hobby.foto_1}}" alt="{{hobby.name + foto_1}}"></div> -->
 
 
     <table>
@@ -279,20 +279,17 @@
     <br/><br/>
 
 
-    <p id="pure_JS_title">This piece is made in pure JavaScript</p>
-    <h2 id="pure_JS_h2">Clikc a list item to replase this text</h2>
-    <button class="btn-group-lg" id="for_pure">Add new item</button>
-    <ul id="our_list">
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li>
-        <li>Fifth item</li>
-    </ul>
 
-    <!--<h2 id="pure_h2_2">Click a list item to replase this text</h2>
-     <button class="btn-group-lg" id="for_pure_2">Add new item</button>
-     <ul id="our_list_2">
+    <div>
+        {{ moneyFilter}}
+        {{ moneyFilter}}
+        {{moneyFilter}}
+    </div>
+
+    <!-- <p id="pure_JS_title">This piece is made in pure JavaScript</p>
+     <h2 id="pure_JS_h2">Clikc a list item to replase this text</h2>
+     <button class="btn-group-lg" id="for_pure">Add new item</button>
+     <ul id="our_list">
          <li>First item</li>
          <li>Second item</li>
          <li>Third item</li>
@@ -300,25 +297,37 @@
          <li>Fifth item</li>
      </ul>
 
-     <h2 id="pure_h2_3">Click a list item to replase this text</h2>
-     <button class="btn-group-lg" id="for_pure_3">Add new item</button>
-     <ul id="our_list_3">
-         <li>First item</li>
-         <li>Second item</li>
-         <li>Third item</li>
-         <li>Fourth item</li>
-         <li>Fifth item</li>
-     </ul>
+     <h2 id="pure_h2_2">Click a list item to replase this text</h2>
+      <button class="btn-group-lg" id="for_pure_2">Add new item</button>
+      <ul id="our_list_2">
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+          <li>Fifth item</li>
+      </ul>
+
+      <h2 id="pure_h2_3">Click a list item to replase this text</h2>
+      <button class="btn-group-lg" id="for_pure_3">Add new item</button>
+      <ul id="our_list_3">
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+          <li>Fifth item</li>
+      </ul>
 
 
 
-     <h2>JSON and AJAX</h2>
-     <button class="bg-success" id="btn_json">Fetch Info for 3 New Animals</button>
-     <div id="animal_info"></div>-->
+      <h2>JSON and AJAX</h2>
+      <button class="bg-success" id="btn_json">Fetch Info for 3 New Animals</button>
+      <div id="animal_info"></div>-->
+
+
 
     <button id="bottom" ng-click="scrollTo('top')">Go to top of the page</button>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-<script type="text/javascript" src="JavaScript.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script> -->
+<!-- <script type="text/javascript" src="JavaScript.js"></script>-->
 </body>
 </html>

@@ -1,5 +1,6 @@
 body {
     padding: 20px;
+    background-image: url("images/cork-wallet.png");
 }
 #for_java_script {
     margin-left: 100px;
@@ -49,4 +50,38 @@ body {
 
 .color {
     color: #2b542c;
+}
+#for_vacation {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: url("images/cork-wallet.png");
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0 3px 20px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.55), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 3px 20px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.55), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 3px 20px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.55), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+    outline : none;
+}
+#for_vacation:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,.35), 0 2px 0 rgba(255,255,255,.55), inset 0 2px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,.35), 0 2px 0 rgba(255,255,255,.55), inset 0 2px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.35), 0 2px 0 rgba(255,255,255,.55), inset 0 2px 0 rgba(0,0,0,.1);
+}
+#for_vacation p {
+    font: 500 16px 'Tahoma', 'Arial', sans-serif;
+    color: #555555;
+}
+#for_vacation p:hover {
+    font: 500 18px 'Tahoma', 'Arial', sans-serif;
+    color: #761c19;
+}
+.pure_active {
+    width: 150px;
+    background-color: #b2dba1;
+    color: #761c19;
 }

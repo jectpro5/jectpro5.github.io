@@ -1,4 +1,4 @@
-/*function viewDate(n, element) {
+function viewDate(n, element) {
  var now = new Date();
  var  nowMilli = now.getTime();
 
@@ -37,7 +37,7 @@
  var from1970ToNy = (ny.getTime()/(1000*60*60*24));
  document.write(" " + "До нового року залишилось" + (Math.round(from1970ToNy) - Math.round(from1970)) + "днів.");
  var myDays = ["неділя", "понеділок", "вівторок", "середа", "четвер", "п'ятниця", "субота"];
- document.write(" " + "Це буде день тижня: " + myDays[ny.getDay()] + "." + "<br>");*/
+ document.write(" " + "Це буде день тижня: " + myDays[ny.getDay()] + "." + "<br>");
 
 
 /*setTimeout("alert('test');", 3000);
@@ -122,12 +122,12 @@ $("document").ready(function () {
     }
 
 
-    $("#show").on("click", function () {
+    $("#btn_1").on("click", function () {
         $("#box_2").fadeIn(4000);
-    })
+    });
     $("#hide").on("click", function () {
         $("#box_2").fadeOut(2000);
-    })
+    });
 
 
     $(".paragr").hover(hightLightPara);
@@ -213,7 +213,7 @@ $("document").ready(function () {
             var peop = prompt("Скiльки вас поїде?");
             var day = prompt("Скiльки днiв Ви хочете вiдпочивати?");
             var countr = prompt("Куди Ви хочете поїхати?", "Turkey, Spain, Egept");
-            document.write("<br>" + "Вартiсть поїздки буде така: " + vacTour.calc(peop, day, countr) + " гривень." + "<br>" + "Обновiть сторiнку, щоб повернутись на попередню сторiнку");
+           alert("Вартiсть поїздки буде така: " + vacTour.calc(peop, day, countr) + " гривень.");
         }
 
 

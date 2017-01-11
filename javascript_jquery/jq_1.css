@@ -83,6 +83,8 @@ body {
 }
 #box_2 {
     display: none;
+    color: #761c19;
+    font-weight: 600;
 }
 .hightlight {
     background-color: #000;

@@ -114,11 +114,11 @@ $("document").ready(function () {
     $("#box_1").on("click", whenMouseIsClicked).on("mouseleave", whenMouseLeaves);
 
     function whenMouseIsClicked() {
-        $("#box_1").html("<h4>hey you clicked me</h4>");
+        $("#box_1").html("<h4>clicked was detected here</h4>");
     }
 
     function whenMouseLeaves() {
-        $("#box_1").html("<h4 id='bcol'>hey you where are you goin</h4>");
+        $("#box_1").html("<h4 id='bcol'>the mouse was detected here</h4>");
     }
 
 
@@ -143,15 +143,7 @@ $("document").ready(function () {
         $("#para_2").slideUp(4000, "linear").slideDown(4000, "linear")
     })
 
-    $("#grow").click(function () {
-        $("#box_4").animate({width: "500px"}, 1000);
-    })
-    $("#move").click(function () {
-        $("#box_4").animate({marginLeft: "100px"}, 1000);
-    })
-    $("#increaSize").click(function () {
-        $("#box_4").animate({fontSize: "30px"}, 1000);
-    })
+
     $("#doManySings").click(function (e) {
         e.preventDefault();
         $("#box_4").animate({width: "500px", marginLeft: "100px", fontSize: "30px"}, 1000);

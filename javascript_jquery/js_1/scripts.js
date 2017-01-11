@@ -122,10 +122,10 @@ $("document").ready(function () {
     }
 
 
-    $("#btn_1").on("click", function () {
-        $("#box_2").fadeIn(4000);
+    $(".btn_1_in").on("click", function () {
+        $("#box_2").fadeIn(3000);
     });
-    $("#hide").on("click", function () {
+    $(".btn_2_in").on("click", function () {
         $("#box_2").fadeOut(2000);
     });
 

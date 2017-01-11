@@ -18,13 +18,6 @@ function userDetails () {
 userDetails ();
 
 
-var vacTour = { Turkey : 900, Spain : 1400, Egept : 600};
-vacTour.calc = function (peoples, days, country) {
-     res = peoples * days * this[country];
-    return res;
-};
-document.write("Стоимость поездки будет такая: " + vacTour.calc(2, 8, "Spain") + "гривен.");
-
 //setTimeout("alert('test');", 3000);
 var newItemCount =1;
 var ourList = document.getElementById("our_list")

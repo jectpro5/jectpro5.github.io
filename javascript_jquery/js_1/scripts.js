@@ -15,7 +15,7 @@ function viewDate(n, element) {
  document.write(" " + "Місяць: " + myMonth[itogMoment.getMonth()] + ".");
  document.write(" " + "Рік: " + itogMoment.getFullYear() + "." + "<br>");
  }
- var userDays = prompt ("Введіть число днів віід 1 до 1000");
+ var userDays = prompt ("Введіть число днів від 1 до 1000 - порахуємо, яка дата це буде");
  if (userDays > 1000 || userDays < 1 || isNaN(userDays)) {document.write("Ви ввели неправильне значення!");}
  else { var itog = Math.round(userDays); document.write("<br>" + "Через " + itog + " днів буде ось така дата: "); viewDate(itog, 'for_java_script')}
 
@@ -39,75 +39,6 @@ function viewDate(n, element) {
  var myDays = ["неділя", "понеділок", "вівторок", "середа", "четвер", "п'ятниця", "субота"];
  document.write(" " + "Це буде день тижня: " + myDays[ny.getDay()] + "." + "<br>");
 
-
-/*setTimeout("alert('test');", 3000);
- var answer = confirm('Чи хотiли б Ви зараз дiзнатися, скiльки коштує вiдпустка там, де зараз тепло?');
- if (answer) {
- var vacTour = { Turkey : 900, Spain : 1400, Egept : 600};
- vacTour.calc = function (peoples, days, country) {
- res = peoples * days * this[country];
- return res;
- };
- var peop = prompt("Сколько вас поедет");
- document.write("<br>" + "Стоимость поездки будет такая: " + vacTour.calc(peop, 8, "Spain") + "гривен.");
- }
- else {document.write("tratata")}
-
- setTimeout(function(){
- myFunction();//вызов функции из скрипта.
- },5000)
-
- function func() {
- alert( 'Привет' );
- }
- setTimeout(func, 1000);
-
-
- setTimeout(function () {
- myFunction();//вызов функции из скрипта.
- }, 5000)*/
-
-
-
-/*function func() {
- answer =  confirm('Чи хотiли б Ви зараз дiзнатися, скiльки коштує вiдпустка там, де зараз тепло?');
- if (answer) {
- var vacTour = {Turkey: 900, Spain: 1400, Egept: 600};
- vacTour.calc = function (peoples, days, country) {
- res = peoples * days * this[country];
- return res;
- };
- var peop = prompt("Скiльки вас поїде?");
- var day = prompt("Скiльки днiв Ви хочете вiдпочивати?");
- var countr = prompt("Куди Ви хочете поїхати?", "Turkey, Spain, Egept");
- document.write("<br>" + "Вартiсть поїздки буде така: " + vacTour.calc(peop, day, countr) + " гривень.");
- }
- }
- setTimeout(func, 3000);
- setTimeout("alert('test');", 3000);
-
- var answer = confirm('Чи хотiли б Ви зараз дiзнатися, скiльки коштує вiдпустка там, де зараз тепло?');
-
- if (answer) {
- var vacTour = {Turkey: 900, Spain: 1400, Egept: 600};
- vacTour.calc = function (peoples, days, country) {
- res = peoples * days * this[country];
- return res;
- };
- var peop = prompt("Сколько вас поедет");
- var day = prompt("Скiльки днiв Ви хочете вiдпочивати?");
- var countr = prompt("Куди Ви хочете поїхати?", "Turkey, Spain, Egept");
- document.write("<br>" + "Стоимость поездки будет такая: " + vacTour.calc(peop, day, countr) + "гривен.");
- }
-
- function sutki(){
- var mode = night ? 'appear' : 'disappear';
- fadeOpacity('fon_day', mode);
- fadeOpacity('tkan_day', mode);
- night = !night;
- setTimeout(display, 100);
- }
- */
 
 
 $("document").ready(function () {

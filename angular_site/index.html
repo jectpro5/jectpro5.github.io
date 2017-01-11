@@ -22,36 +22,6 @@
     <input type="text" ng-change="message(data)" ng-model="data">
     <h1 id="for_name">{{text}}</h1>
 
-    <p>Data on employee</p>
-    <div>First Name : {{ employee.firstName}}</div>
-    <div>Last Name : {{ employee.lastName}}</div>
-    <div>Gender : {{ employee.gender}}</div>
-
-
-    <div>I like {{hobby.name}}</div>
-    <div>I like {{hobby.way}}</div>
-   <!-- <div><img src="{{hobby.foto_1}}" alt="{{hobby.name + foto_1}}"></div> -->
-
-
-    <table>
-        <thead>
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Gender</th>
-            <th>Salary</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr ng-repeat="employee in employees">
-            <td>{{ employee.firstName}}</td>
-            <td>{{ employee.lastName}}</td>
-            <td>{{ employee.gender}}</td>
-            <td>{{ employee.salary}}</td>
-        </tr>
-        </tbody>
-    </table>
-
     <ul>
         <li ng-repeat="country in countries">
             {{ country.name }}
@@ -260,70 +230,6 @@
         </tbody>
     </table>
     <br/><br/>
-
-
-    <div class="for_todo">
-        <h2>Total todos: {{getTotalTodos()}}</h2>
-        <ul>
-            <li ng-repeat="todo in todos">
-                <input type="checkbox" ng-model="todo.done">
-                <span class="done-{{todo.done}}">{{todo.text}}</span>
-            </li>
-        </ul>
-        <form class="form-horizontal">
-            <input type="text" ng-model="formTodoText" ng-model-instant>
-            <button class="btn" ng-click="addTodo()"><i class="glyphicon-plus"></i>Add</button>
-        </form>
-        <!--<button class="btn-large" ng-click="clearCompleted()"><i class="glyphicon-trash"></i>Clear Completed</button>-->
-    </div>
-    <br/><br/>
-
-
-
-    <div>
-        {{ moneyFilter}}
-        {{ moneyFilter}}
-        {{moneyFilter}}
-    </div>
-
-    <!-- <p id="pure_JS_title">This piece is made in pure JavaScript</p>
-     <h2 id="pure_JS_h2">Clikc a list item to replase this text</h2>
-     <button class="btn-group-lg" id="for_pure">Add new item</button>
-     <ul id="our_list">
-         <li>First item</li>
-         <li>Second item</li>
-         <li>Third item</li>
-         <li>Fourth item</li>
-         <li>Fifth item</li>
-     </ul>
-
-     <h2 id="pure_h2_2">Click a list item to replase this text</h2>
-      <button class="btn-group-lg" id="for_pure_2">Add new item</button>
-      <ul id="our_list_2">
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
-          <li>Fourth item</li>
-          <li>Fifth item</li>
-      </ul>
-
-      <h2 id="pure_h2_3">Click a list item to replase this text</h2>
-      <button class="btn-group-lg" id="for_pure_3">Add new item</button>
-      <ul id="our_list_3">
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
-          <li>Fourth item</li>
-          <li>Fifth item</li>
-      </ul>
-
-
-
-      <h2>JSON and AJAX</h2>
-      <button class="bg-success" id="btn_json">Fetch Info for 3 New Animals</button>
-      <div id="animal_info"></div>-->
-
-
 
     <button id="bottom" ng-click="scrollTo('top')">Go to top of the page</button>
 </div>

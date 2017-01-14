@@ -7,17 +7,17 @@ function viewDate(n, element) {
 
  var summaMilli = nowMilli + milliN;
  var itogMoment = new Date(summaMilli);
- var myDays = ["Неділя", "Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота"];
- var myMonth = ["Січень", "Лютий", "Березень", "Квітень", "Травень", "Червень", "Липень", "Серпень","Вересень","Жовтень","Листопад","Грудень"];
+ var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+ var myMonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
- document.write(" " + "День тижня: " + myDays[itogMoment.getDay()] + ".");
- document.write(" " + "Число: " + itogMoment.getDate() + ".");
- document.write(" " + "Місяць: " + myMonth[itogMoment.getMonth()] + ".");
- document.write(" " + "Рік: " + itogMoment.getFullYear() + "." + "<br>");
+ document.write(" " + "Day of the week: " + myDays[itogMoment.getDay()] + ".");
+ document.write(" " + " Number: " + itogMoment.getDate() + ".");
+ document.write(" " + " Month: " + myMonth[itogMoment.getMonth()] + ".");
+ document.write(" " + "Year: " + itogMoment.getFullYear() + "." + "<br>");
  }
- var userDays = prompt ("Введіть число днів від 1 до 1000 - порахуємо, яка дата це буде");
+ var userDays = prompt ("Enter the number of days from 1 to 1000, and JS function will calculate, that date it will be / Введіть число днів від 1 до 1000 - порахуємо, яка дата це буде");
  if (userDays > 1000 || userDays < 1 || isNaN(userDays)) {document.write("Ви ввели неправильне значення!");}
- else { var itog = Math.round(userDays); document.write("<br>" + "Через " + itog + " днів буде ось така дата: "); viewDate(itog, 'for_java_script')}
+ else { var itog = Math.round(userDays); document.write("<br>" + "After " + itog + " days will be here this date: "); viewDate(itog, 'for_java_script')}
 
  var now = new Date();
  var hour = now.getHours();
@@ -25,9 +25,9 @@ function viewDate(n, element) {
  var seconds = now.getSeconds();
  if (minutes < 10 ) {minutes = "0" + minutes};
  if (seconds < 10) {seconds = "0" + seconds};
- document.write("Зараз час: " +  hour + ":" + minutes + ":" + seconds + ", ");
+ document.write("Now is the time: " +  hour + ":" + minutes + ":" + seconds + ", ");
 
- var myDays = ["неділя", "понеділок", "вівторок", "середа", "четвер", "п'ятниця", "субота"];
+ var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
  var now = new Date;
  document.write(" " + myDays[now.getDay()] + ". ");
 
@@ -35,9 +35,9 @@ function viewDate(n, element) {
  var from1970 = (now.getTime()/(1000*60*60*24));
  var ny = new Date (2018, 0, 1, 0, 0, 0);
  var from1970ToNy = (ny.getTime()/(1000*60*60*24));
- document.write(" " + "До нового року залишилось" + (Math.round(from1970ToNy) - Math.round(from1970)) + "днів.");
- var myDays = ["неділя", "понеділок", "вівторок", "середа", "четвер", "п'ятниця", "субота"];
- document.write(" " + "Це буде день тижня: " + myDays[ny.getDay()] + "." + "<br>");
+ document.write(" Until the New Year - " + (Math.round(from1970ToNy) - Math.round(from1970)) + "days.");
+ var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+ document.write(" " + "This will be next day of the week: " + myDays[ny.getDay()] + "." + "<br>");
 
 
 
@@ -126,17 +126,17 @@ $("document").ready(function () {
 
     $("#for_vacation").click(function () {
 
-        answer = confirm('Чи хотiли б Ви зараз дiзнатися, скiльки коштує вiдпустка там, де зараз тепло?');
+        answer = confirm('Would you like to know, how many costs a leave, where is the heat?');
         if (answer) {
             var vacTour = {Turkey: 900, Spain: 1400, Egept: 600};
             vacTour.calc = function (peoples, days, country) {
                 res = peoples * days * this[country];
                 return res;
             };
-            var peop = prompt("Скiльки вас поїде?");
-            var day = prompt("Скiльки днiв Ви хочете вiдпочивати?");
-            var countr = prompt("Куди Ви хочете поїхати?", "Turkey, Spain, Egept");
-           alert("Вартiсть поїздки буде така: " + vacTour.calc(peop, day, countr) + " гривень.");
+            var peop = prompt("How many persons will travel?");
+            var day = prompt("How many days you want to relax?");
+            var countr = prompt("Where would you like to go?", "Turkey, Spain, Egept");
+           alert("The cost of the trip will be as follows: " + vacTour.calc(peop, day, countr) + " UA.");
         }
 
 

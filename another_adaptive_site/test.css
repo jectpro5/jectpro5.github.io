@@ -10,13 +10,13 @@
 }
 
 h1 {
-    font: 45px 'Parisienne', cursive;
+    font: 60px 'Qwigley', cursive;
     text-align: center;
     color: #9b9b9b;
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', sans-serif;
     text-align: center;
     font-weight: 600;
     color: #929292;
@@ -24,41 +24,19 @@ h4 {
     margin: -14px 0 37px 0;
 }
 
-nav ul li {
-    display: inline-block;
-}
-
-nav ul a {
-    color: #000;
-    border: none;
-    font: 15px 'Open Sans', sans-serif;
-}
-
-nav ul a button {
-    padding: 3px 15px;
+a:hover {
+    text-decoration: none;
 }
 
 #for_dropdown > div > a {
     line-height: 7px;
 }
 
-nav {
-    text-align: center;
-}
-
 #for_ul {
     margin-bottom: -35px;
 }
-
-#for_dropdown {
-    margin: 0 58px;
-    text-decoration: none;
-}
-
-#for_dropdown a {
-    margin-top: 14px;
-    text-decoration: none;
-    cursor: pointer;
+#for_ul > li:nth-last-of-type(2) a {
+    font-size: 16px;
 }
 
 .for_img {
@@ -69,78 +47,6 @@ nav {
     position: relative;
 }
 
-.img_in {
-    width: 228px;
-    height: 228px;
-    position: absolute;
-    background-color: black;
-    background: rgba(0, 0, 0, 0);
-    z-index: 1;
-}
-
-/*.for_img p {
-    width: 228px;
-    height: 228px;
-    position: absolute;
-    z-index: 2;
-    color: inherit;
-
-
-}
-
-.for_img p:hover {
-    color: red;
-}
-
-.neww::before {
-    content: '';
-    background-color: #2aabd2;
-    width: 228px;
-    height: 228px;
-    position: absolute;
-    background-color: black;
-    background: rgba(0, 0, 0, 0.35);
-    z-index: 1;
-}
-.for_img span::before {
-    content: '';
-    background-color: #2aabd2;
-    width: 228px;
-    height: 228px;
-    position: absolute;
-    background-color: black;
-    background: rgba(0, 0, 0, 0.35);
-    z-index: 1;
-}
-.for_img span::before:hover {
-    box-shadow:0 0 0 114px rgba(0, 0, 0, 0.63) inset;
-}
-.for_img span::before {
-    content: "look here";
-    color: red;
-    z-index: 2;
-    top: 50px;
-    left: 45px;
-}*/
-.img_in:hover {
-        background: rgba(0, 0, 0, 0.35);
-}
-
-/*.neww {
-    border: 3px solid red;
-    box-shadow:0 0 0 114px rgba(0, 0, 0, 0.63) inset;
-}
-#ts {box-shadow:0 0 0 114px rgba(0, 0, 0, 0.63) inset;}
-
-.neww::before {
-
-}
-#text_for_hover {
-    color: #000;
-    font: 14px 'Parisienne', cursive;
-    position: absolute;
-    z-index: 2;
-}*/
 
 #hr_ln {
     width: 100%;
@@ -154,7 +60,7 @@ nav {
 }
 
 h2 {
-    font: 600 30px 'Parisienne', cursive;
+    font: 500 45px 'Qwigley', cursive;
     text-align: center;
     color: #777777;
     margin-top: 0px;

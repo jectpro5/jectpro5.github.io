@@ -1,0 +1,63 @@
+/* Переменные
+@body-bg-color: #83b692;    // green
+@text-color: #fff;          // white
+@button-bg-color: yellow;  // pink
+/* LESS CSS
+body {
+  background: @body-bg-color;
+  color: @text-color;
+  font-family: sans-serif;
+  text-align: center;
+}
+a:link, a:visited {
+  background: @button-bg-color;
+  color: @text-color;
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+a:hover {
+  background-color: desaturate(@button-bg-color, 50%);
+}
+a:active {
+  background-color: saturate(@button-bg-color, 50%);
+}*/
+@shadow-color: black;
+@size: 114px;
+nav {
+  text-align: center;
+  ul {
+    li {
+      display: inline-block;
+    }
+    a {
+      color: #000;
+      border: none;
+      font: 15px 'Open Sans', sans-serif;
+      button {
+        padding: 3px 15px;
+      }
+    }
+  }
+}
+
+#for_dropdown {
+  margin: 0 58px;
+  a {
+    margin-top: 14px;
+    cursor: pointer;
+  }
+  li {
+    width: 145px;
+  }
+}
+
+.img_in {
+  width: @size*2;
+  height: @size*2;
+  position: absolute;
+  background-color: @shadow-color rgba(0, 0, 0, 0);
+  z-index: 1;
+  &:hover {background-color: rgba(0, 0, 0, .35);}
+}
+

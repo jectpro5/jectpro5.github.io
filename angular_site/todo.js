@@ -1,5 +1,5 @@
 var App = angular.module("App", []);
-App.controller("MainController", function ($scope, $location, $anchorScroll) {
+App.controller("MainController", function ($scope, $location, $anchorScroll, $http) {
     $scope.scrollTo = function (scrollLocation) {
         $location.hash(scrollLocation);
         $anchorScroll();
@@ -121,7 +121,7 @@ App.controller("MainController", function ($scope, $location, $anchorScroll) {
     $scope.employees_6 = employees_6;
 
 
-    $scope.todos = [
+   /* $scope.todos = [
         {text: 'Learn AngularJS', done: false},
         {text: 'Build an app', done: false}
     ];
@@ -139,8 +139,49 @@ App.controller("MainController", function ($scope, $location, $anchorScroll) {
         $scope.formTodoText = '';
     };
 
+    $scope.books = [
+        {
+            name: 'AngularJS'
+        },
+        {
+            name: 'EnberJS'
+        },
+        {
+            name: 'ReactJS'
+        }
+    ];
 
-    $scope.money1 = '1.22$';
+    // $http.get('http://localhost:3004/books')
+    //     .success(function (result) {
+    //         console.log('success', result);
+    //         $scope.books = result;
+    //     })
+    //     .error(function (result) {
+    //         console.log('error')
+    //     });
+
+   
+   
+    $scope.addBook = function (book) {
+        $scope.books.push({
+            name: book.name
+        });
+
+        $scope.book.name = '';
+
+       
+       
+        // $http.post('http://localhost:3004/books', book)
+        //     .success(function (result) {
+        // $scope.books.push(book);
+        //     });
+        // .error(function (result) {
+        //     console.log('Error in book post');
+        // });
+    };
+
+
+  /*  $scope.money1 = '1.22$';
     $scope.money2 = '$2.31';
     $scope.money3 = '4.79';
 });
@@ -157,7 +198,7 @@ app.filter('moneyFilter', function () {
         } else {
             return '$' + str;
         }
-    };
+    };*/
 });
 
 

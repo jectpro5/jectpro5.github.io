@@ -45,7 +45,7 @@ $("document").ready(function () {
     $("#box_1").on("click", whenMouseIsClicked).on("mouseleave", whenMouseLeaves);
 
     function whenMouseIsClicked() {
-        $("#box_1").html("<h4>clicked was detected here</h4>");
+        $("#box_1").html("<h4>click was detected here</h4>");
     }
 
     function whenMouseLeaves() {
@@ -77,8 +77,10 @@ $("document").ready(function () {
 
     $("#doManySings").click(function (e) {
         e.preventDefault();
-        $("#box_4").animate({width: "500px", marginLeft: "100px", fontSize: "30px"}, 1000);
-    })
+        $("#box_4").animate({width: "500px", marginLeft: "100px", fontSize: "30px"}, 3000);
+        $("#doManySings p").hide();
+        $("#doManySings").hide();
+    });
 
     $(".selectrs_1").css("border", "3px solid red");
 

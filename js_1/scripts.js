@@ -1,8 +1,5 @@
 $("document").ready(function () {
 
-    var arrow_down = $('.arrow-down p');
-    arrow_down.fadeOut(500).fadeIn(600).fadeOut(500).fadeIn(600).fadeOut(700).fadeIn(800);
-
     $('.dropdown-menu li:even').css("background", "#87A9F5");
 
     //$('.dropdown-menu li[title*=website]').css("font-size", "20px");

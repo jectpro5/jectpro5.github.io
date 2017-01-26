@@ -1,17 +1,12 @@
-@import url(https://www.fontsquirrel.com/fonts/lato);
+
 
 @font-face {
     font-family: Tahoma, Arial; /* Имя шрифта */
     font-weight: 500;
 }
 
-@font-face {
-    font-family: Lato; /* Имя шрифта */
-    font-weight: 400;
-}
 
 body {
-    font-family: Lato, sans-serif;
     background-image: url("anglr_img/fresh_snow.png");
     color: #818181;
     font-weight: normal;

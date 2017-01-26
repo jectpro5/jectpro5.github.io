@@ -48,7 +48,6 @@ App.controller("MainController", function ($scope, $location, $anchorScroll, $ht
     $scope.technologies = technologies;
     $scope.incrementLikes = function (technology) {
         technology.likes++;
-        am
     };
     $scope.incrementDislikes = function (technology) {
         technology.dislikes++;

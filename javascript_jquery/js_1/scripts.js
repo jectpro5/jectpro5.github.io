@@ -1,44 +1,57 @@
 function viewDate(n, element) {
- var now = new Date();
- var  nowMilli = now.getTime();
+    var now = new Date();
+    var nowMilli = now.getTime();
 
- var nowPlusN = new Date(1000*60*60*24*n);
- var milliN = nowPlusN.getTime();
+    var nowPlusN = new Date(1000 * 60 * 60 * 24 * n);
+    var milliN = nowPlusN.getTime();
 
- var summaMilli = nowMilli + milliN;
- var itogMoment = new Date(summaMilli);
- var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
- var myMonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var summaMilli = nowMilli + milliN;
+    var itogMoment = new Date(summaMilli);
+    var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var myMonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
- document.write(" " + "Day of the week: " + myDays[itogMoment.getDay()] + ".");
- document.write(" " + " Number: " + itogMoment.getDate() + ".");
- document.write(" " + " Month: " + myMonth[itogMoment.getMonth()] + ".");
- document.write(" " + "Year: " + itogMoment.getFullYear() + "." + "<br>");
- }
- var userDays = prompt ("Enter the number of days from 1 to 1000, and JS function will calculate, that date it will be / Введіть число днів від 1 до 1000 - порахуємо, яка дата це буде");
- if (userDays > 1000 || userDays < 1 || isNaN(userDays)) {document.write("Ви ввели неправильне значення!");}
- else { var itog = Math.round(userDays); document.write("<br>" + "After " + itog + " days will be here this date: "); viewDate(itog, 'for_java_script')}
+    document.write(" " + "Day of the week: " + myDays[itogMoment.getDay()] + ".");
+    document.write(" " + " Number: " + itogMoment.getDate() + ".");
+    document.write(" " + " Month: " + myMonth[itogMoment.getMonth()] + ".");
+    document.write(" " + "Year: " + itogMoment.getFullYear() + "." + "<br>");
+}
 
- var now = new Date();
- var hour = now.getHours();
- var minutes = now.getMinutes();
- var seconds = now.getSeconds();
- if (minutes < 10 ) {minutes = "0" + minutes};
- if (seconds < 10) {seconds = "0" + seconds};
- document.write("Now is the time: " +  hour + ":" + minutes + ":" + seconds + ", ");
+var userDays = prompt("Enter the number of days from 1 to 1000, and JS function will calculate, that date it will be / Введіть число днів від 1 до 1000 - порахуємо, яка дата це буде");
+if (userDays > 1000 || userDays < 1 || isNaN(userDays)) {
+    document.write("You entered an invalid value!" + "<br>");
+}
+else {
+    var itog = Math.round(userDays);
+    document.write("<br>" + "After " + itog + " days will be here this date: ");
+    viewDate(itog, '#for_java_script')
+}
 
- var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
- var now = new Date;
- document.write(" " + myDays[now.getDay()] + ". ");
 
- var now = new Date();
- var from1970 = (now.getTime()/(1000*60*60*24));
- var ny = new Date (2018, 0, 1, 0, 0, 0);
- var from1970ToNy = (ny.getTime()/(1000*60*60*24));
- document.write(" Until the New Year - " + (Math.round(from1970ToNy) - Math.round(from1970)) + "days.");
- var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
- document.write(" " + "This will be next day of the week: " + myDays[ny.getDay()] + "." + "<br>");
+var now = new Date();
+var hour = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds();
+if (minutes < 10) {
+    minutes = "0" + minutes
+}
+;
+if (seconds < 10) {
+    seconds = "0" + seconds
+}
+;
+document.write("Now is the time: " + hour + ":" + minutes + ":" + seconds + ", ");
 
+var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var now = new Date;
+document.write(" " + myDays[now.getDay()] + ". ");
+
+var now = new Date();
+var from1970 = (now.getTime() / (1000 * 60 * 60 * 24));
+var ny = new Date(2018, 0, 1, 0, 0, 0);
+var from1970ToNy = (ny.getTime() / (1000 * 60 * 60 * 24));
+document.write(" Until the New Year - " + (Math.round(from1970ToNy) - Math.round(from1970)) + "days.");
+var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+document.write(" " + "This will be next day of the week: " + myDays[ny.getDay()] + "." + "<br>");
 
 
 $("document").ready(function () {
@@ -77,10 +90,13 @@ $("document").ready(function () {
 
     $("#doManySings").click(function (e) {
         e.preventDefault();
-        $("#box_4").animate({width: "500px", marginLeft: "100px", fontSize: "30px"}, 3000);
-        $("#doManySings p").hide();
-        $("#doManySings").hide();
+        $("#box_4").delay(1500).animate({width: "500px", marginLeft: "100px", fontSize: "30px"}, 3000);
+        $("#doManySings p").slideUp(1000, "linear");
+        $("#doManySings").slideUp(1000, "linear");
     });
+    setTimeout(function () {
+// Ваш скрипт
+    }, 1000);
 
     $(".selectrs_1").css("border", "3px solid red");
 
@@ -138,11 +154,13 @@ $("document").ready(function () {
             var peop = prompt("How many persons will travel?");
             var day = prompt("How many days you want to relax?");
             var countr = prompt("Where would you like to go?", "Turkey, Spain, Egept");
-           alert("The cost of the trip will be as follows: " + vacTour.calc(peop, day, countr) + " UA.");
+            alert("The cost of the trip will be as follows: " + vacTour.calc(peop, day, countr) + " UA.");
         }
 
 
     });
+
+
 });
 
 

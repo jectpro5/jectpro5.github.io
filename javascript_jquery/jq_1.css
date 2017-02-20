@@ -2,9 +2,12 @@ body {
     padding: 20px;
     background-image: url("images/cork-wallet.png");
     font-family: 'Tahoma', 'Arial', sans-serif;
+    font-size: 15px;
 }
 * {
-
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #for_java_script {
@@ -37,10 +40,13 @@ body {
     -webkit-box-shadow: 0 2px 0 rgba(255, 255, 255, .55), inset 0 2px 0 rgba(0, 0, 0, .1), inset 0 0 20px rgba(0, 0, 0, .3);
     padding-top: 5px;
 }
-
+#for_date_1 p, #for_date_2 p {
+    margin-bottom: 0;
+}
 #for_vacation p {
     font: 500 16px 'Tahoma', 'Arial', sans-serif;
     color: #555555;
+    margin-bottom: 0;
 }
 
 #for_vacation p:hover {
@@ -76,7 +82,7 @@ body {
 .btn_1 p {
     position: absolute;
     left: 82px;
-    bottom: -8px;
+    bottom: -4px;
     text-shadow: 0 1px 0 #eee, 0 2px 2px #000;
     color: #8BA;
     font-weight: 700;
@@ -212,7 +218,7 @@ body {
 #doManySings p {
     width: 100px;
     position: absolute;
-    bottom: -3px;
+    bottom: 3px;
     left: 15px;
     text-shadow: 0 1px 0 #eee, 0 2px 2px #000;
     color: #8E8;
@@ -287,7 +293,7 @@ body {
     width: 200px;
     height: 200px;
     background-color: #cecece;
-    margin-top: 20px;
+    margin: 20px;
     position: relative;
 }
 
@@ -315,4 +321,41 @@ body {
     width: 150px;
     background-color: #b2dba1;
     color: #761c19;
+}
+#rotate {
+    border: 2px dashed #7b7d78;
+}
+.rotate1 {
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#foo {
+    width:228px;
+    height:228px;
+    margin: 50px;
+    top:100px;
+    left:500px;
+    border-spacing: 0;
+    background-image:url("images/img_1_1.jpg");
+    transition: all 1s ease;
+}
+#for_rotate button {
+    padding: 5px 15px;
+}
+
+.image_to_rotate {
+    margin: 50px;
+}
+
+#rotate3 {
+    margin: 50px;
+}
+
+#for_pure_btn {
+    padding: 5px 15px;
+}
+#our_list li {
+    margin: 5px 0;
 }

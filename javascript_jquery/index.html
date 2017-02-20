@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>jQuery_1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="jq_1.css">
     <script src="js_1/jquery.js"></script>
+    <script type="text/javascript" src="jqueryrotate.2.1.js"></script>
+
     <script src="js_1/scripts.js"></script>
 
 </head>
-<body>
+<body class="container">
+<button type="button" id="for_vacation" title="press here for calculate own tour"><p>vacation</p></button>
+<button type="button" id="for_date_1" title="press here for calculate future date"><p>second</p></button>
+<button type="button" id="for_date_2" class="for_rotate" title="press here, to know today date"><p>third</p></button>
+<!--&lt;!&ndash;onClick='viewDate()'&ndash;&gt;-->
+<article class="row">
+    <section class="col-xs-12 col-sm-6 col-md-3" id="for_rotate">
+        <div id="foo"></div>
+        <button title="click for turn left" onclick="rotateLeft()">left</button>
+        <button title="click for turn right" onclick="rotateRight()">right</button>
+    </section>
 
-    <button type="button" id="for_vacation" title="press here for calculate own tour"><p>vacation</p></button>
-    <button type="button" id="for_date_1" title="press here for calculate future date"><p>future date</p></button>
-    <button type="button" id="for_date_2" title="press here, to know today date"><p>today date</p></button>
-    <!--onClick='viewDate()'-->
-<div id="for_java_script"></div>
+    <section class="col-xs-12 col-sm-6 col-md-3"><img src="images/img_3_1.jpg" alt="5" id="rotate3"></section>
+</article>
 
-<div id="box_1"></div>
+    <div id="for_java_script"></div>
+
+
+<!--<div id="box_1"></div>-->
 
 <div class="btn_1"><p>show</p>
     <div class="btn_1_in"></div>
@@ -26,7 +39,7 @@
 </div>
 
 <!--<div class="btn_3"><p></p>-->
-    <!--<div class="btn_3_in"></div>-->
+<!--<div class="btn_3_in"></div>-->
 <!--</div>-->
 
 <div>
@@ -84,7 +97,7 @@
     <li>Fourth item</li>
     <li>Fifth item</li>
 </ul>
-
+<script src="js/bootstrap.min.js"></script>
 <script src="Java_Script.js"></script>
 </body>
 </html>

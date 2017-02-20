@@ -53,9 +53,52 @@ document.write(" Until the New Year - " + (Math.round(from1970ToNy) - Math.round
 var myDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 document.write(" " + "This will be next day of the week: " + myDays[ny.getDay()] + "." + "<br>");
 
+function rotateLeft(){
+    var angle = ($('#foo').data('angle')) || 0;
+    angle -= 45;
+    $('#foo').css({'transform': 'rotate(' + angle + 'deg)'});
+    $('#foo').data('angle', angle);
+}
+
+function rotateRight(){
+    var angle = ($('#foo').data('angle')) || 0;
+    angle += 45;
+    $('#foo').css({'transform': 'rotate(' + angle + 'deg)'});
+    $('#foo').data('angle', angle);
+}
 
 $("document").ready(function () {
-    $("#box_1").on("click", whenMouseIsClicked).on("mouseleave", whenMouseLeaves);
+    $("#for_date_2").click(function () {
+        // $('#rotate').addClass('rotate1');
+        $('#rotate').css({animateTo: '+=90'});
+});
+    // $("#increase_size").click(function () {
+    //     $("#cont1 p:last-of-type").css("font-size", "+=1px");
+    // });
+
+
+    // var angle = 0;
+    // setInterval(function(){
+    //     angle+=3;
+    //     jQuery("#rotate").rotate(angle);
+    // },50);
+    // jQuery("#rotateImg").rotate({animateTo: '+=90'});
+    // $('#for_date_2').click(function(){
+    //     $(this).rotate(90);
+    // });
+    jQuery("#rotate3").rotate({
+        bind:
+        {
+            mouseover : function() {
+                $(this).rotate({animateTo:180})
+            },
+            mouseout : function() {
+                $(this).rotate({animateTo:0})
+            }
+        }
+    });
+
+$("#box_1").on("click", whenMouseIsClicked).on("mouseleave", whenMouseLeaves);
 
     function whenMouseIsClicked() {
         $("#box_1").html("<h4>click was detected here</h4>");

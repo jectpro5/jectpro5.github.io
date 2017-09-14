@@ -168,22 +168,6 @@ $("#box_1").on("click", whenMouseIsClicked).on("mouseleave", whenMouseLeaves);
     // $("p").after("##")
     //$("p").before("^^");
 
-    $("#cont1 p:first").wrap("<div id='red'>");
-
-    $("#add_class").click(function () {
-        $("#cont1 p:last-child").addClass('color');
-    });
-    $("#remove_class").click(function () {
-        $("#cont1 p:last-child").removeClass('color');
-    });
-    $("#toggle_class").click(function () {
-        $("#cont1 p:last-child").toggleClass('color');
-    });
-    $("#increase_size").click(function () {
-        $("#cont1 p:last-of-type").css("font-size", "+=1px");
-    });
-
-    $("#cont1 p:first").next().css("border", "2px solid red");
 
     $("#for_vacation").click(function () {
 

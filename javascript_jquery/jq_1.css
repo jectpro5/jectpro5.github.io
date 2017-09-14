@@ -359,3 +359,60 @@ body {
 #our_list li {
     margin: 5px 0;
 }
+
+#listC {
+    border: 2px dashed #f60;
+    min-height: 100px
+}
+
+.ui_message {
+    background-color: #E6F059;
+    border: 3px solid #A0974E;
+    padding: 5px;
+    margin: 10px 0;
+    position: relative;
+}
+.ui_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1px 5px;
+    cursor: pointer;
+    color: brown;
+    background-color: #eb9316;
+}
+.forFAQ h2 + p {
+    color: #2b542c;
+}
+.forFAQ h4 {
+    font-weight: 600;
+}
+.forFAQ_question {
+    color: blue;
+    cursor: pointer;
+}
+.body_text {
+    width: 70%;
+    margin: auto;
+}
+.body_text h2 {
+    text-align: center;
+}
+.img_right {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.about_placeholder p.centered {
+    text-align: center;
+}
+#about {
+    width: 300px;
+    padding: 7px;
+    color: brown;
+    background-color: #E6F059;
+    border: 3px solid #A0974E;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}

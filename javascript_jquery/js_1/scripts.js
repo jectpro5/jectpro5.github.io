@@ -203,6 +203,22 @@ $("#box_1").on("click", whenMouseIsClicked).on("mouseleave", whenMouseLeaves);
 
     });
 
+    //=====================parents and their children================================
+    $(".ui_message").append('<span class="ui_close">X</span>');
+    $(".ui_close").click(function () {
+        $(this).parents(".ui_message").fadeOut();
+    });
+    //=====================FAQ=======================================================
+    $(".for_answer").hide();
+    $(".forFAQ h4").click(function () {
+        $(this).next(".for_answer").slideToggle();
+    });
+    $(".forFAQ h4").addClass("forFAQ_question");
+    //======================for AJAX=================================================
+    $("#about").click(function () {
+        $(".about_placeholder").load("about.html .body_text");
+        return false;
+    });
 
 });
 

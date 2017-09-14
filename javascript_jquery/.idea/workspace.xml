@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697e8ed9-2d97-4ec8-abc7-6a63f5940eb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js_1/scripts.js" afterPath="$PROJECT_DIR$/js_1/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jq_1.css" afterPath="$PROJECT_DIR$/jq_1.css" />
     </list>
     <ignored path="BOOTS_LITE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
@@ -66,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jq_1.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jq_1.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jq_1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7089">
-              <caret line="417" column="1" lean-forward="false" selection-start-line="417" selection-start-column="1" selection-end-line="417" selection-end-column="1" />
+            <state relative-caret-position="209">
+              <caret line="360" column="19" lean-forward="false" selection-start-line="360" selection-start-column="19" selection-end-line="360" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -118,10 +117,10 @@
         <option value="$PROJECT_DIR$/boots_lite.html" />
         <option value="$PROJECT_DIR$/bl.css" />
         <option value="$PROJECT_DIR$/Java_Script.js" />
-        <option value="$PROJECT_DIR$/jq_1.css" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/js_1/scripts.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/jq_1.css" />
       </list>
     </option>
   </component>
@@ -292,12 +291,12 @@
       <workItem from="1487592059588" duration="20756000" />
       <workItem from="1505370817084" duration="1155000" />
       <workItem from="1505372157678" duration="598000" />
-      <workItem from="1505372773114" duration="448000" />
+      <workItem from="1505372773114" duration="965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160113000" />
+    <option name="totallyTimeSpent" value="160630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,14 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jq_1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7089">
-          <caret line="417" column="1" lean-forward="false" selection-start-line="417" selection-start-column="1" selection-end-line="417" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
@@ -458,6 +449,14 @@
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="360" column="19" lean-forward="false" selection-start-line="360" selection-start-column="19" selection-end-line="360" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

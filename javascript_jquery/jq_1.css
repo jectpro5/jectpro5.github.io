@@ -405,6 +405,7 @@ body {
 }
 .about_placeholder p.centered {
     text-align: center;
+    color: red;
 }
 #about {
     width: 300px;
@@ -432,6 +433,6 @@ body {
     color: red;
 }
 .forJSONandAJAX > p {
-    color: green;
+    color: blue;
     display: none;
 }

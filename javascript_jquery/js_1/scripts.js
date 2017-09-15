@@ -204,6 +204,72 @@ $("#box_1").on("click", whenMouseIsClicked).on("mouseleave", whenMouseLeaves);
         return false;
     });
 
+
+    //====================JSON and AJAX==============================================
+    //===============================================================================
+    var myPageCounter = 1;
+    var animalContainer = document.getElementById("animal_info");
+    var btn = document.getElementById("btnJnAx");
+
+    btn.addEventListener("click", function () {
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET', 'https://learnwebcode.github.io/json-example/animals-' + myPageCounter + '.json');
+        ourRequest.onload = function () {
+
+            if (ourRequest.status >= 200 && ourRequest.status < 400) {
+                var ourData = JSON.parse(ourRequest.responseText);
+                createHTML(ourData);
+            } else {
+                console.log("We connected to server, but it returned an error");
+            }
+
+
+        };
+        ourRequest.send();
+
+        ourRequest.onerror = function () {
+            console.log("Connection error");
+        };
+
+        myPageCounter++;
+        if (myPageCounter > 3) {
+            btn.classList.add("hide_me");
+            $(".forJSONandAJAX h2+p").addClass("hide_me");
+            $(".forJSONandAJAX > p").css("display", "block");
+        }
+    });
+
+    function createHTML(myData) {
+        var myHtmlString = "";
+
+        for (i=0; i < myData.length; i++) {
+            myHtmlString += "<p>" + myData[i].name + " is a " + myData[i].species + "that likes to eat ";
+
+            for (ii = 0; ii < myData[i].foods.likes.length; ii++) {
+                if (ii == 0) {
+                    myHtmlString += myData[i].foods.likes[ii];
+                }else {
+                    myHtmlString +=  " and " +  myData[i].foods.likes[ii];
+                }
+            }
+
+            myHtmlString += " and dislikes ";
+
+            for (ii = 0; ii < myData[i].foods.dislikes.length; ii++) {
+                if (ii == 0) {
+                    myHtmlString += myData[i].foods.dislikes[ii];
+                }else {
+                    myHtmlString +=  " and " +  myData[i].foods.dislikes[ii];
+                }
+            }
+
+            myHtmlString += '.</p>';
+
+        }
+
+        animalContainer.insertAdjacentHTML('beforeend', myHtmlString);
+    }
+
 });
 
 

@@ -417,3 +417,21 @@ body {
     text-align: center;
     text-decoration: none;
 }
+/*===============JSON and AJAX================================*/
+.hide_me {
+    display: none;
+}
+.forJSONandAJAX {
+    width: 80%;
+    padding: 20px;
+    border: 3px solid #A0974E;
+    background-color: #c9e2b3;
+    margin-top: 40px;
+}
+.forJSONandAJAX h2+p {
+    color: red;
+}
+.forJSONandAJAX > p {
+    color: green;
+    display: none;
+}

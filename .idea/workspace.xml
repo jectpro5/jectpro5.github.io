@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/forecast.css" description="#main-nav_c {" line="1187" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Favorite Sites/index.html" afterPath="$PROJECT_DIR$/Favorite Sites/index.html" />
-    </list>
+    <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="" />
     <ignored path="recent project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -70,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/Pig Game/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
-              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -79,8 +76,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Favorite Sites/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="118" lean-forward="false" selection-start-line="10" selection-start-column="118" selection-end-line="10" selection-end-column="118" />
+            <state relative-caret-position="544">
+              <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding>
                 <element signature="e#1441#1447#0" expanded="true" />
               </folding>
@@ -184,7 +181,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="1" />
     <option name="width" value="1370" />
@@ -384,15 +381,15 @@
       <workItem from="1485340084717" duration="1297000" />
       <workItem from="1485420376888" duration="1917000" />
       <workItem from="1514200467099" duration="5055000" />
-      <workItem from="1514207794141" duration="1252000" />
+      <workItem from="1514207794141" duration="1871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237380000" />
+    <option name="totallyTimeSpent" value="237999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="1" width="1370" height="744" extended-state="1" />
+    <frame x="-10" y="1" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24198474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -651,7 +648,7 @@
     <entry file="file://$PROJECT_DIR$/Pig Game/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -682,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Favorite Sites/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="118" lean-forward="false" selection-start-line="10" selection-start-column="118" selection-end-line="10" selection-end-column="118" />
+        <state relative-caret-position="544">
+          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
           <folding>
             <element signature="e#1441#1447#0" expanded="true" />
           </folding>

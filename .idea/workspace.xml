@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pig Game/index.html" afterPath="$PROJECT_DIR$/Pig Game/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pig Game/style.css" afterPath="$PROJECT_DIR$/Pig Game/style.css" />
     </list>
     <ignored path="recent project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pig Game/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="178">
+              <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -58,8 +58,18 @@
       <file leaf-file-name="style_1.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style_1.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="204">
               <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pig Game/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -93,6 +103,7 @@
       <find>top_get</find>
       <find>arrow-down</find>
       <find>-moz-</find>
+      <find>h2</find>
     </findStrings>
     <replaceStrings>
       <replace>nav</replace>
@@ -113,6 +124,7 @@
         <option value="$PROJECT_DIR$/style_1.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Pig Game/index.html" />
+        <option value="$PROJECT_DIR$/Pig Game/style.css" />
       </list>
     </option>
   </component>
@@ -327,12 +339,12 @@
       <workItem from="1485283096610" duration="7186000" />
       <workItem from="1485340084717" duration="1297000" />
       <workItem from="1485420376888" duration="1917000" />
-      <workItem from="1514200467099" duration="837000" />
+      <workItem from="1514200467099" duration="1369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231910000" />
+    <option name="totallyTimeSpent" value="232442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="1" width="1370" height="744" extended-state="0" />
@@ -395,7 +407,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://G:/DAY_LITE/copy.css" />
     <entry file="file://G:/DAY_LITE/copy.html" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.css" />
     <entry file="file://E:/ВЕРСТАЛЬЩИК html, css, bootstrap 3, jQuery - РЕЗЮМЕ/АДАПТИВНИЙ/bl.html" />
@@ -579,14 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style_1.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -597,8 +600,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pig Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="178">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style_1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pig Game/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding />
         </state>
       </provider>

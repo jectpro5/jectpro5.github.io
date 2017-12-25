@@ -40,6 +40,15 @@ body {
     overflow: hidden;
 }
 
+h2 {
+    color: #EB4D4D;
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    margin-left: -212px;
+    top: 37px;
+}
+
 .player-0-panel,
 .player-1-panel {
     width: 50%;

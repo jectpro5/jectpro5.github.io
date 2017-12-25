@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    background-image: url("images/cork-wallet.png");
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#for_bookmk {
+    margin-top: 50px;
+}
+.jumbotron h2 {
+    text-align: center;
+}
+#forBookmrkSites button {
+    margin: 0 auto;
+    display: block;
+}
+.for_margn {
+    margin-left: 30px;
+    margin-right: 10px;
+}

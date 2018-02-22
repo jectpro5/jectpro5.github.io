@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/3rdpartylicenses.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/inline.318b50c57b4eba3d437b.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/main.3de3157bd8e4181d5eea.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/polyfills.1457c99db4b6dba06e8d.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/styles.148decb68b3ec2e614a0.bundle.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/td/3rdpartylicenses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/td/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/td/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/td/inline.318b50c57b4eba3d437b.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/td/main.3de3157bd8e4181d5eea.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/td/polyfills.1457c99db4b6dba06e8d.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/td/styles.148decb68b3ec2e614a0.bundle.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="recent project.iws" />
@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="35" column="86" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="86" />
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -146,7 +146,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -189,7 +189,11 @@
     <property name="js-jscs-nodeInterpreter" value="G:\Руслан\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Руслан\jectpro5.github.io\td" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Руслан\jectpro5.github.io" />
       <recent name="G:\Руслан\jectpro5.github.io\td" />
       <recent name="G:\Руслан\jectpro5.github.io\Favorite Sites\images" />
       <recent name="E:\PROJEKTS\recent project\fonts" />
@@ -347,17 +351,17 @@
       <workItem from="1519156721843" duration="708000" />
       <workItem from="1519201967608" duration="1405000" />
       <workItem from="1519317789577" duration="1337000" />
-      <workItem from="1519319140899" duration="2364000" />
+      <workItem from="1519319140899" duration="3049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246091000" />
+    <option name="totallyTimeSpent" value="246776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.544741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -646,7 +650,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="35" column="86" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="86" />
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding />
         </state>
       </provider>

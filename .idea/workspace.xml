@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/3rdpartylicenses.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/inline.318b50c57b4eba3d437b.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/main.3de3157bd8e4181d5eea.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/polyfills.1457c99db4b6dba06e8d.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/styles.148decb68b3ec2e614a0.bundle.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/3rdpartylicenses.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/inline.318b50c57b4eba3d437b.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/main.3de3157bd8e4181d5eea.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/polyfills.1457c99db4b6dba06e8d.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/td/styles.148decb68b3ec2e614a0.bundle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="recent project.iws" />
@@ -351,12 +351,12 @@
       <workItem from="1519156721843" duration="708000" />
       <workItem from="1519201967608" duration="1405000" />
       <workItem from="1519317789577" duration="1337000" />
-      <workItem from="1519319140899" duration="3049000" />
+      <workItem from="1519319140899" duration="3415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246776000" />
+    <option name="totallyTimeSpent" value="247142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />

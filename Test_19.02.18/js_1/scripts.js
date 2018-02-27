@@ -1,17 +1,18 @@
-$("document").ready(function () {
 
+$("document").ready(function () {
 
     $("#datepckr").datepicker();
 
     $("#theCarousel").carousel();
 
-    $( "#datepicker" ).datepicker({
+    $("#datepicker").datepicker({
         numberOfMonths: 2
     });
-    $("#navbarSupportedContent").click(function () {
-        $("li.nav-item").toggle(".for_toggle")
-    });
-    $( "#datepicker1" ).datepicker();
 
-
+    $("#navbarSupportedContent i.ion-navicon-round").click(function () {
+        $("#for_visiblty").toggle(".for_toggle")
     });
+    $("#datepicker1").datepicker();
+
+});
+

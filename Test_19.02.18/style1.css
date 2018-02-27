@@ -65,7 +65,7 @@ header {
     justify-content: flex-end;
 }
 
-#navbarSupportedContent ul {
+#for_visiblty {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -600,15 +600,16 @@ footer ul li {
         cursor: pointer;
         color: #3F3F3F;
     }
-    li.nav-item {
+
+    #navbarSupportedContent ul {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #for_visiblty {
         display: none;
     }
     .for_toggle {
         display: block;
-    }
-    #navbarSupportedContent ul {
-        justify-content: space-around;
-        flex-direction: column;
     }
     #navbarSupportedContent {
         width: 230px;

@@ -642,7 +642,7 @@ footer ul li {
 }
 @media (max-width: 767px) {
     #navbarSupportedContent ul {
-        margin-right: -70%;
+        margin-right: 0;
     }
     .main_left ul li:not(:last-of-type) {
         display: none;
@@ -714,9 +714,6 @@ footer ul li {
     }
 }
 @media (max-width: 720px) {
-    #navbarSupportedContent ul {
-        margin-right: -40%;
-    }
     .main_left ul.thumbnail_3 li.list-group-item {
         display: block;
         height: 230px;

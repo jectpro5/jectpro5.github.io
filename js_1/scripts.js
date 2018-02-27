@@ -5,11 +5,13 @@ $("document").ready(function () {
     //$('.dropdown-menu li[title*=website]').css("font-size", "20px");
 
     $(".header p").hover(hightLightPara);
+
     function hightLightPara() {
         $(this).toggleClass("hightlight_1")
     }
 
     $(".header a").hover(hightLightInput);
+
     function hightLightInput() {
         $(this).toggleClass("hightlight_2")
     }
@@ -30,36 +32,98 @@ $("document").ready(function () {
     $("#theCarousel").carousel();
 
 
-    /*Слайдер
-    $('#slides1').bxSlider({
+});
+var dates = [];
+var first_date = 0;
 
-        alignment: 'horizontal',                          // 'horizontal', 'vertical' - direction in which slides will move
-        controls: true,                                   // determines if default 'next'/'prev' controls are displayed
-        speed: 1000,                                      // amount of time slide transition lasts (in milliseconds)
-        pager: true,                                      // determines if a numeric pager is displayed (1 2 3 4...)
-        pager_short: false,                               // determines if a 'short' numeric pager is displayed (1/4)
-        pager_short_separator: ' / ',                     // text to be used to separate the short pager
-        margin: 70,                                       // if 'horizontal', applies a right margin to each slide, if 'vertical' a
-                                                          // bottom margin is applied. example: margin: 50
-        next_text: 'next',                                // text to be displayed for the 'next' control
-        next_image: 'frcst_img/btn_arrow_right.jpg',  // image to be used for the 'next' control
-        prev_text: 'prev',                                // text to be displayed for the 'prev' control
-        prev_image: 'frcst_img/btn_arrow_left.jpg',   // image to be used for the 'prev' control
-        auto: true,                                       // determines if slides will move automatically
-        pause: 2000,                                      // time between each slide transition (auto mode only)
-        auto_direction: 'next',                           // order in which slides will transition (auto mode only)
-        auto_hover: true,                                 // determines if slideshow will pause while mouse is hovering over slideshow
-        auto_controls: true,                              // determines if 'start'/'stop' controls are displayed (auto mode only)
-        ticker: false,                                    // determines if slideshow will behave as a constant ticker
-        ticker_controls: false,                           // determines if 'start'/'stop' ticker controls are displayed (ticker mode only)
-        ticker_direction: 'next',                         // order in which slides will transition (ticker mode only)
-        ticker_hover: true,                               // determines if slideshow will pause while mouse is hovering over slideshow
-        stop_text: 'Остановить',                          // text to be displayed for the 'stop' control
-        start_text: 'Запустить',                          // text to be displayed for the 'start' control
-        wrapper_class: 'slides1_wrap'                     // class name to be used for the outer wrapper of the slideshow
-
-
-    });*/
-
-
+function initDatepicker(col_calendars) {
+    var calendar = pickmeup('#calendar_input', {
+        position: 'bottom',
+        hide_on_select: true,
+        class_name: 'calendar',
+        first_day: 0,
+        mode: 'range',
+        date: [],
+        calendars: col_calendars,
+        render: function (date) {
+            if (String(date) == String(dates[1]) && (String(dates[0]) != String(dates[1]))) {
+                return {class_name: 'last-day'};
+            }
+            return {};
+        }
     });
+}
+
+//Default func
+function initDef() {
+    if ($(window).width() >= 768) {
+        pickmeup('#calendar_input').destroy();
+        initDatepicker(2);
+        // Delete slick, if slick initialized
+        if ($('.program-slider').hasClass('slick-initialized')) $('.program-slider').slick('unslick');
+        // for desktop delete modal functionality from filters (filters page)
+        $('#exampleModalLong').removeClass("modal fade").css('display', 'block');
+    } else {
+        // init slick slider
+        $('.program-slider').not('.slick-initialized').slick({
+            infinite: true,
+            slidesToShow: 2,
+            centerMode: true,
+            slidesToScroll: 2,
+            arrows: false,
+            responsive: [{
+                breakpoint: 560,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }]
+        });
+        pickmeup('#calendar_input').destroy();
+        initDatepicker(1);
+        $('#exampleModalLong').addClass("modal fade").css('display', 'none');
+    }
+}
+
+$(document).ready(function () {
+    initDef();
+    $.widget("custom.iconselectmenu", $.ui.selectmenu, {
+        _renderItem: function (ul, item) {
+            var li = $("<li>", {text: item.label});
+            if (item.disabled) {
+                li.addClass("ui-state-disabled");
+            }
+            $("<span>", {
+                style: item.element.attr("data-style"),
+                "class": "ui-icon " + item.element.attr("data-class")
+            })
+                .appendTo(li);
+            return li.appendTo(ul);
+        }
+    });
+    $("#car_model")
+        .iconselectmenu()
+        .iconselectmenu("menuWidget")
+        .addClass("ui-menu-icons avatar");
+    // For adding class last day
+    $('#calendar_input').on('pickmeup-change', function (e) {
+        dates = e.detail.date;
+    })
+    $('.list-inline-item').on("click", function () {
+        $('.pmu-selected').last().addClass("last-day");
+    });
+    // init isotope.js
+    $('.grid').isotope({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+            columnWidth: 1
+        }
+    });
+});
+
+$(window).resize(
+    function () {
+        initDef();
+    }
+);

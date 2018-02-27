@@ -1,13 +1,11 @@
 @font-face {
     font-family: Roboto-medium; /* Имя шрифта */
-    src: url(./fonts1/Roboto-medium.ttf); /* Путь к файлу со шрифтом */
-    font-weight: 500;
+    src: url(./fonts1/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: Roboto-regular; /* Имя шрифта */
     src: url(./fonts1/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
-    font-weight: 500;
 }
 
 @font-face {

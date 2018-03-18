@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/forecast.css" description="#main-nav_c {" line="1187" />
+    <bookmark url="file://$PROJECT_DIR$/forecast.css" description="#main-nav_c {" line="1186" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js_1/scripts.js" afterPath="$PROJECT_DIR$/js_1/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forecast.css" afterPath="$PROJECT_DIR$/forecast.css" />
     </list>
     <ignored path="recent project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,14 +58,24 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Нотатки/checkout_Front_test/текущая верстка/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forecast.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forecast.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js_1/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
@@ -157,7 +167,6 @@
         <option value="$PROJECT_DIR$/datepicker.css" />
         <option value="$PROJECT_DIR$/resent.html" />
         <option value="$PROJECT_DIR$/angular.html" />
-        <option value="$PROJECT_DIR$/forecast.css" />
         <option value="$PROJECT_DIR$/Pig Game/index.html" />
         <option value="$PROJECT_DIR$/Pig Game/style.css" />
         <option value="$PROJECT_DIR$/Favorite Sites/style.css" />
@@ -166,11 +175,12 @@
         <option value="$PROJECT_DIR$/style_1.less" />
         <option value="$PROJECT_DIR$/../Нотатки/checkout_Front_test/текущая верстка/selection.html" />
         <option value="$PROJECT_DIR$/Test_19.02.18/index.html" />
-        <option value="$PROJECT_DIR$/../Нотатки/checkout_Front_test/текущая верстка/js/script.js" />
         <option value="$PROJECT_DIR$/Test_19.02.18/js_1/scripts.js" />
         <option value="$PROJECT_DIR$/Test_19.02.18/style1.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js_1/scripts.js" />
+        <option value="$PROJECT_DIR$/../Нотатки/checkout_Front_test/текущая верстка/js/script.js" />
+        <option value="$PROJECT_DIR$/forecast.css" />
       </list>
     </option>
   </component>
@@ -194,7 +204,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2" />
     <option name="y" value="13" />
     <option name="width" value="1368" />
@@ -223,27 +233,6 @@
             <path>
               <item name="recent project" type="b2602c69:ProjectViewProjectNode" />
               <item name="jectpro5.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="recent project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jectpro5.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js_1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="recent project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jectpro5.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pig Game" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="recent project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jectpro5.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test_19.02.18" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="recent project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jectpro5.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test_19.02.18" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js_1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -431,15 +420,15 @@
       <workItem from="1519761789044" duration="4794000" />
       <workItem from="1519810027933" duration="645000" />
       <workItem from="1520784752340" duration="613000" />
-      <workItem from="1521396953802" duration="737000" />
+      <workItem from="1521396953802" duration="1018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269583000" />
+    <option name="totallyTimeSpent" value="269864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30484116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -623,24 +612,9 @@
     <entry file="file://$PROJECT_DIR$/healthy_food.css" />
     <entry file="file://$PROJECT_DIR$/angular.html" />
     <entry file="file://$PROJECT_DIR$/resent.html" />
-    <entry file="file://$PROJECT_DIR$/js_1/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frcst_img/left_tel.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forecast.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="11" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pig Game/index.html">
@@ -725,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Нотатки/checkout_Front_test/текущая верстка/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test_19.02.18/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -753,6 +719,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_1/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Нотатки/checkout_Front_test/текущая верстка/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forecast.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

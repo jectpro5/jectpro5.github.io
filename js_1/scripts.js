@@ -36,23 +36,23 @@ $("document").ready(function () {
 var dates = [];
 var first_date = 0;
 
-function initDatepicker(col_calendars) {
-    var calendar = pickmeup('#calendar_input', {
-        position: 'bottom',
-        hide_on_select: true,
-        class_name: 'calendar',
-        first_day: 0,
-        mode: 'range',
-        date: [],
-        calendars: col_calendars,
-        render: function (date) {
-            if (String(date) == String(dates[1]) && (String(dates[0]) != String(dates[1]))) {
-                return {class_name: 'last-day'};
-            }
-            return {};
-        }
-    });
-}
+// function initDatepicker(col_calendars) {
+//     var calendar = pickmeup('#calendar_input', {
+//         position: 'bottom',
+//         hide_on_select: true,
+//         class_name: 'calendar',
+//         first_day: 0,
+//         mode: 'range',
+//         date: [],
+//         calendars: col_calendars,
+//         render: function (date) {
+//             if (String(date) == String(dates[1]) && (String(dates[0]) != String(dates[1]))) {
+//                 return {class_name: 'last-day'};
+//             }
+//             return {};
+//         }
+//     });
+// }
 
 //Default func
 function initDef() {

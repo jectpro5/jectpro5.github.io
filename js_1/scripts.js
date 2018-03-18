@@ -55,35 +55,35 @@ var first_date = 0;
 // }
 
 //Default func
-function initDef() {
-    if ($(window).width() >= 768) {
-        pickmeup('#calendar_input').destroy();
-        initDatepicker(2);
-        // Delete slick, if slick initialized
-        if ($('.program-slider').hasClass('slick-initialized')) $('.program-slider').slick('unslick');
-        // for desktop delete modal functionality from filters (filters page)
-        $('#exampleModalLong').removeClass("modal fade").css('display', 'block');
-    } else {
-        // init slick slider
-        $('.program-slider').not('.slick-initialized').slick({
-            infinite: true,
-            slidesToShow: 2,
-            centerMode: true,
-            slidesToScroll: 2,
-            arrows: false,
-            responsive: [{
-                breakpoint: 560,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }]
-        });
-        pickmeup('#calendar_input').destroy();
-        initDatepicker(1);
-        $('#exampleModalLong').addClass("modal fade").css('display', 'none');
-    }
-}
+// function initDef() {
+//     if ($(window).width() >= 768) {
+//         pickmeup('#calendar_input').destroy();
+//         initDatepicker(2);
+//         // Delete slick, if slick initialized
+//         if ($('.program-slider').hasClass('slick-initialized')) $('.program-slider').slick('unslick');
+//         // for desktop delete modal functionality from filters (filters page)
+//         $('#exampleModalLong').removeClass("modal fade").css('display', 'block');
+//     } else {
+//         // init slick slider
+//         $('.program-slider').not('.slick-initialized').slick({
+//             infinite: true,
+//             slidesToShow: 2,
+//             centerMode: true,
+//             slidesToScroll: 2,
+//             arrows: false,
+//             responsive: [{
+//                 breakpoint: 560,
+//                 settings: {
+//                     slidesToShow: 1,
+//                     slidesToScroll: 1,
+//                 }
+//             }]
+//         });
+//         pickmeup('#calendar_input').destroy();
+//         initDatepicker(1);
+//         $('#exampleModalLong').addClass("modal fade").css('display', 'none');
+//     }
+// }
 
 $(document).ready(function () {
     initDef();

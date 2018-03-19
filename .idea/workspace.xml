@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/main.3de3157bd8e4181d5eea.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/td/styles.148decb68b3ec2e614a0.bundle.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test_19.02.18/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test_19.02.18/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/td/3rdpartylicenses.txt" afterPath="$PROJECT_DIR$/td/3rdpartylicenses.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/td/index.html" afterPath="$PROJECT_DIR$/td/index.html" />
     </list>
     <ignored path="recent project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,7 +144,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="7" />
     <option name="y" value="10" />
     <option name="width" value="1368" />
@@ -367,16 +361,15 @@
       <workItem from="1519810027933" duration="645000" />
       <workItem from="1520784752340" duration="613000" />
       <workItem from="1521396953802" duration="1380000" />
-      <workItem from="1521444312407" duration="1757000" />
+      <workItem from="1521444312407" duration="2021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271983000" />
+    <option name="totallyTimeSpent" value="272247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

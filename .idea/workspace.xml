@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99bbcf63-75e0-426e-86f4-f347b234d042" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test_19.02.18/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test_19.02.18/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/td/index.html" afterPath="$PROJECT_DIR$/td/index.html" />
     </list>
     <ignored path="recent project.iws" />
@@ -27,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="45" column="57" lean-forward="true" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/td/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="216" lean-forward="false" selection-start-line="0" selection-start-column="216" selection-end-line="0" selection-end-column="216" />
               <folding />
             </state>
           </provider>
@@ -185,11 +174,6 @@
               <item name="recent project" type="b2602c69:ProjectViewProjectNode" />
               <item name="jectpro5.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="recent project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jectpro5.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="td" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -206,15 +190,15 @@
     <property name="js-jscs-nodeInterpreter" value="G:\Руслан\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Руслан\jectpro5.github.io\td" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Руслан\jectpro5.github.io" />
       <recent name="G:\Руслан\jectpro5.github.io\td" />
+      <recent name="G:\Руслан\jectpro5.github.io" />
       <recent name="G:\Руслан\jectpro5.github.io\Favorite Sites\images" />
       <recent name="E:\PROJEKTS\recent project\fonts" />
       <recent name="E:\PROJEKTS\recent project\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Руслан\jectpro5.github.io\td" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,17 +363,17 @@
       <workItem from="1519810027933" duration="645000" />
       <workItem from="1520784752340" duration="613000" />
       <workItem from="1521396953802" duration="1380000" />
-      <workItem from="1521444312407" duration="2660000" />
+      <workItem from="1521444312407" duration="2954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272886000" />
+    <option name="totallyTimeSpent" value="273180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -699,7 +683,7 @@
     <entry file="file://$PROJECT_DIR$/td/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="216" lean-forward="false" selection-start-line="0" selection-start-column="216" selection-end-line="0" selection-end-column="216" />
+          <caret line="0" column="118" lean-forward="true" selection-start-line="0" selection-start-column="118" selection-end-line="0" selection-end-column="118" />
           <folding />
         </state>
       </provider>

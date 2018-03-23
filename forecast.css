@@ -32,8 +32,12 @@ body {
     position: relative;
 }
 
+.navbar-fixed-top {
+    background-color: #F1F2F6;
+}
+
 .top_nav_main {
-    padding-top: 42px;
+    padding-top: 27px;
 }
 
 #main-nav {

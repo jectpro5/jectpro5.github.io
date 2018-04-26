@@ -52,3 +52,17 @@ body {
   border-radius: 5px;
   font-size: 30px;
   margin-top: 8px; }
+
+#info {
+  animation: pulse_2 2s infinite;
+  font-style: italic; }
+
+@keyframes pulse_2 {
+  0% {
+    color: #818181; }
+  5% {
+    color: orangered; }
+  10% {
+    color: #818181; }
+  100% {
+    color: #818181; } }

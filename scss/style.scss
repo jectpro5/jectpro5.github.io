@@ -3,7 +3,9 @@ $font-color: #fff;
 $primary-color: #008ed6;
 $dark-overlay: rgba(0, 0, 0, 0.7);
 $icon-size: 30px;
-$icon-margin-top:8px;
+$icon-margin-top: 8px;
+$pulse_color_1: #818181;
+$pulse_color_2: orangered;
 
 body {
   background: $bg-color;
@@ -59,19 +61,39 @@ body {
   }
 }
 
-#create-head-section, #share-head-section{
+#create-head-section, #share-head-section {
   a:hover {
     color: #72777D;
     font-weight: bold;
   }
 }
-#create-section{
-  .fa{
+
+#create-section {
+  .fa {
     color: $primary-color;
     background: #fff;
     padding: 4px;
     border-radius: 5px;
     font-size: $icon-size;
     margin-top: $icon-margin-top;
+  }
+}
+
+#info{
+  animation: pulse_2 2s infinite;
+  font-style: italic;
+}
+@keyframes pulse_2 {
+  0% {
+    color: $pulse_color_1;
+  }
+  5% {
+    color: $pulse_color_2;
+  }
+  10% {
+    color: $pulse_color_1;
+  }
+  100% {
+    color: $pulse_color_1;
   }
 }

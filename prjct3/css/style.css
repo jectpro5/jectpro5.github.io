@@ -6,8 +6,27 @@ button {
 
 .table td {
   vertical-align: middle; }
+#info {
+  animation: pulse_2 2s infinite;
+  font-style: italic; }
+
+@keyframes pulse_2 {
+  0% {
+    color: #818181; }
+  5% {
+    color: orangered; }
+  10% {
+    color: #818181; }
+  100% {
+    color: #818181; } }
+
 @media (max-width: 575px) {
   a.navbar-brand {
     margin-left: 13px;
+  }
+}
+@media (max-width: 500px) {
+  #info span{
+    display: none;
   }
 }

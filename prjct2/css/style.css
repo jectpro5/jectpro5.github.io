@@ -46,9 +46,27 @@ body {
     color: #fff; }
   #authors .card:hover .text-muted {
     color: #fff !important; }
+#info {
+  animation: pulse_2 2s infinite;
+  font-style: italic; }
+
+@keyframes pulse_2 {
+  0% {
+    color: #818181; }
+  5% {
+    color: orangered; }
+  10% {
+    color: #818181; }
+  100% {
+    color: #818181; } }
 
 @media (max-width: 700px) {
   h1 {
     font-size: 35px !important; }
   .info-header {
     width: 100%; } }
+@media (max-width: 500px) {
+  #info span{
+    display: none;
+  }
+}

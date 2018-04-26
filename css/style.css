@@ -66,3 +66,7 @@ body {
     color: #818181; }
   100% {
     color: #818181; } }
+
+@media (max-width: 500px) {
+  #info span {
+    display: none; } }
